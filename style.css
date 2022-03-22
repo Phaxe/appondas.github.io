@@ -3918,7 +3918,7 @@ footer .copyrights h6{
        align-items: center;
        justify-content: center;
        background-color: #125488;
-       height: 20vh;
+       height: 20%;
   }
   
   #foot h4{
@@ -3941,7 +3941,7 @@ footer .copyrights h6{
       grid-template-columns: repeat(1,1fr);
       align-items: center;
       justify-content: space-between;
-      height: 22vh;
+      height: 25%;
       background-color: #125488;
       width: 100%;
   }
@@ -7886,7 +7886,7 @@ padding: 0.9375rem 0.9375rem;
         font-weight: 400;
         }
  }
- @media (max-width:390px) , (orientation:landscape){
+ @media (max-width:390px){
     #head{
         max-width: 100%;
     }
@@ -8292,7 +8292,7 @@ padding: 0.9375rem 0.9375rem;
        align-items: center;
        justify-content: center;
        background-color: #125488;
-       height: 55vh;
+       height: 35vh;
       
        
   }
@@ -8317,7 +8317,7 @@ padding: 0.9375rem 0.9375rem;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
         
-        height: 55vh;
+        height: 38vh;
         background-color: #125488;
         max-width: 100%;
     }
