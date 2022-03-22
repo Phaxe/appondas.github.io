@@ -2068,7 +2068,8 @@ font-size: 0.85rem;
         bottom: 0;
     }
     .ngrb{
-        margin-right: 5rem;
+        margin-right: 2rem;
+        margin-left: 2.5rem;
     }
     .ngrb2{
         display: none;
@@ -2568,7 +2569,7 @@ font-size: 0.85rem;
        align-items: center;
        justify-content: center;
        background-color: #125488;
-       height: 35vh;
+       height: 35%;
   }
   
   #foot h4{
@@ -2596,7 +2597,7 @@ font-size: 0.85rem;
       grid-template-columns: repeat(1,1fr);
       align-items: center;
       justify-content: space-between;
-      height: 15vh;
+      height: 15%;
       background-color: #125488;
       width: 100%;
   }
@@ -4997,7 +4998,8 @@ box-shadow: 5px 5px 0 #6acaf7;
         bottom: 0;
     }
     .ngrb{
-        margin-right: 5rem;
+        margin-right: 3rem;
+        margin-left: 2.5rem;
         
     }
     .ngrb2{
@@ -5039,12 +5041,12 @@ box-shadow: 5px 5px 0 #6acaf7;
 
 }
 #head .btn1{
-    width: 7.25rem;
+    width: 8.25rem;
     color: #000;
-    height: 2.5rem;
-    padding: 0 1.25rem;
+    height: 3.5rem;
+    
     font-size:0.75rem;
-    font-weight: 500;
+    font-weight: 550;
     border: 1px solid #fff;
     border-radius: 30px;
     padding: 12px 12px;
@@ -5372,7 +5374,7 @@ box-shadow: 5px 5px 0 #6acaf7;
        align-items: center;
        justify-content: center;
        background-color: #125488;
-       height: 22vh;
+       height: 22%;
        
        
   }
@@ -5400,7 +5402,7 @@ box-shadow: 5px 5px 0 #6acaf7;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
         
-        height: 32vh;
+        height: 32%;
         background-color: #125488;
         max-width: 100%;
     }
@@ -8005,7 +8007,12 @@ align-items: center;
     
     
   }
- 
+ .sm-srv h2{
+     color: #fff;
+     font-size: 1rem;
+     padding-left: 5rem;
+     margin-top: -0.3rem;
+ }
 .sm-srv h6{
     justify-content: center;
     align-items: center;
