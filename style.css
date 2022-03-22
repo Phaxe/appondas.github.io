@@ -8027,7 +8027,7 @@ align-items: center;
   .sm-srv li {
     color: #fff;
     margin: 0 1rem 0.5rem 0;
-    padding-left: 4rem;
+    padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 1.2rem;
     counter-increment: my-awesome-counter;
