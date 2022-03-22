@@ -348,7 +348,12 @@ align-items: center;
     height: 20rem;
     
   }
- 
+  .sm-srv h2{
+    color: #fff;
+    font-size: 1.2rem;
+    padding-left: 5rem;
+    margin-top: -0.3rem;
+}
 .sm-srv h6{
     justify-content: center;
     align-items: center;
@@ -1040,7 +1045,7 @@ font-size: 0.85rem;
         color: #fff;
         margin: 0 0 0.5rem 0;
         padding-left: 2.8rem;
-        padding-right: 1rem;
+        
         padding-top: 1.2rem;
         counter-increment: my-awesome-counter;
         position: relative;
@@ -1063,7 +1068,7 @@ font-size: 0.85rem;
       .sm-srv a:hover{
         transform: translateX(-20px);
     transition: ease-in 0.3s;
-    box-shadow: 5px 5px 0 #807b7a;
+    box-shadow: 5px 5px 0 #6acaf7;
         
           }
       .sm-srv li::before {
@@ -1073,16 +1078,16 @@ font-size: 0.85rem;
         font-weight: bold;
         position: absolute;
         --size: 32px;
-        left: calc(-1 * var(--size) -8px);
+        left: calc(-1 * var(--size) -20px);
         line-height: var(--size);
         width: var(--size);
         height: var(--size);
-        top: 22px;
+        top: 26px;
         transform: rotate(-10deg);
         background: #fff;
         border-radius: 50%;
         text-align: center;
-        box-shadow: 1px 1px 0 #6acaf7;
+        box-shadow: 1px 1px 0 black;
       }
       #banner{
         max-width: 100%;
@@ -1424,6 +1429,102 @@ font-size: 0.85rem;
        transform: translateX(55%) scale(1.1);
        transition: ease 0.3s;
      }
+     #foot{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        background-color: #125488;
+        height: 35%;
+   }
+   
+   #foot h4{
+       font-size: 1rem;
+       font-weight: 550;
+       line-height: 2;
+       color: #ED6239;
+       cursor: pointer;
+   }
+   #foot h6{
+       font-size: 0.85rem;
+       line-height: 2;
+       color: #FFF;
+       margin-bottom: 1.125rem;
+   }
+   footer{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       align-items: center;
+       justify-content: space-between;
+       height: 15%;
+       background-color: #125488;
+       width: 100%;
+   }
+   
+   footer .foot2 ul{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       list-style: none;
+       
+   
+   
+   }
+   footer .foot2 a{
+       text-decoration: none;
+       padding-left: 1.25rem;
+       padding-right: 1.25rem;
+       margin-top: 0.75rem;
+       font-size: 0.85rem;
+       font-weight: 500;
+       color: #fff;
+       transition: ease-in 0.3s;
+   
+   }
+   footer .foot2 a:hover{
+       color: #ED6239;
+       transition: ease-in 0.3s;
+   }
+   footer .icons{
+       text-align: center;
+       margin-top: 0.75rem;
+    padding-right: 1.875rem;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    transition: ease-in 0.3s;
+   }
+   footer .foot2 h6{
+       display: none;
+   }
+   footer .foot2 span{
+       visibility: hidden;
+       margin-right: 1rem;
+       color: #ED6239;
+   
+   }
+   #foot h4:hover{
+     transform: scale(1.1);
+     cursor: pointer;
+     padding: 10px 25px;
+     
+ }
+   footer .icons i{
+       padding-left: 2.25rem;
+   }
+   footer .copyrights{
+       padding-right: 1.5rem;
+   }
+   footer .copyrights h6{
+       text-align: center;
+       margin-top: 0.75rem;
+       color: #fff;
+       font-size: 0.75rem;
+       font-weight: 400;
+   
+   }
 }
 @media (max-width:1050px){
   
@@ -1454,7 +1555,7 @@ font-size: 0.85rem;
     }
     #head img{
         z-index: 15;
-        margin-left: -3.5rem;
+        margin-left: -1.5rem;
         
     }
     
@@ -1771,7 +1872,7 @@ font-size: 0.85rem;
         font-weight: bold;
         position: absolute;
         --size: 32px;
-        left: calc(-1 * var(--size) -8px);
+        left: calc(-1 * var(--size) -25px);
         line-height: var(--size);
         width: var(--size);
         height: var(--size);
@@ -1951,7 +2052,7 @@ font-size: 0.85rem;
        align-items: center;
        justify-content: center;
        background-color: #125488;
-       height: 35vh;
+       height: 35%;
   }
   
   #foot h4{
@@ -1979,7 +2080,7 @@ font-size: 0.85rem;
       grid-template-columns: repeat(1,1fr);
       align-items: center;
       justify-content: space-between;
-      height: 15vh;
+      height: 15%;
       background-color: #125488;
       width: 100%;
   }
@@ -2389,7 +2490,7 @@ font-size: 0.85rem;
         font-weight: bold;
         position: absolute;
         --size: 32px;
-        left: calc(-1 * var(--size) -8px);
+        left: calc(-1 * var(--size) -25px);
         line-height: var(--size);
         width: var(--size);
         height: var(--size);
@@ -2692,7 +2793,7 @@ font-size: 0.85rem;
         }
         #head img{
             z-index: 15;
-            margin-left: -4rem;
+            margin-left: -3rem;
             
         }
         
@@ -2869,11 +2970,11 @@ font-size: 0.85rem;
         font-weight: bold;
         position: absolute;
         --size: 32px;
-        left: calc(-1 * var(--size) -8px);
+        left: calc(-1 * var(--size) -25px);
         line-height: var(--size);
         width: var(--size);
         height: var(--size);
-        top: 22px;
+        top: 26px;
         transform: rotate(-10deg);
         background: #fff;
         border-radius: 50%;
@@ -3055,7 +3156,7 @@ font-size: 0.85rem;
        align-items: center;
        justify-content: center;
        background-color: #125488;
-       height: 20vh;
+       height: 20%;
   }
   
   #foot h4{
@@ -3078,7 +3179,7 @@ font-size: 0.85rem;
       grid-template-columns: repeat(1,1fr);
       align-items: center;
       justify-content: space-between;
-      height: 18vh;
+      height: 18%;
       background-color: #125488;
       width: 100%;
   }
@@ -3737,11 +3838,11 @@ footer .copyrights h6{
         font-weight: bold;
         position: absolute;
         --size: 32px;
-        left: calc(-1 * var(--size) -8px);
+        left: calc(-1 * var(--size) -25px);
         line-height: var(--size);
         width: var(--size);
         height: var(--size);
-        top: 22px;
+        top: 26px;
         transform: rotate(-10deg);
         background: #fff;
         border-radius: 50%;
@@ -4215,11 +4316,11 @@ box-shadow: 5px 5px 0 #6acaf7;
     font-weight: bold;
     position: absolute;
     --size: 32px;
-    left: calc(-1 * var(--size) -8px);
+    left: calc(-1 * var(--size) -25px);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 22px;
+    top: 26px;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -4524,7 +4625,7 @@ footer .copyrights h6{
     }
     #head img{
         z-index: 15;
-        margin-left: -2.5rem;        
+        margin-left: -2rem;        
     }
     
     
@@ -4560,7 +4661,7 @@ footer .copyrights h6{
 #head .btn1{
     width: 7.25rem;
     color: #000;
-    height: 2.5rem;
+    height: 3.5rem;
     padding: 0 1.25rem;
     font-size:0.75rem;
     font-weight: 500;
@@ -4663,11 +4764,11 @@ box-shadow: 5px 5px 0 #6acaf7;
     font-weight: bold;
     position: absolute;
     --size: 32px;
-    left: calc(-1 * var(--size) -8px);
+    left: calc(-1 * var(--size) -25px);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 22px;
+    top: 26px;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -4735,7 +4836,7 @@ box-shadow: 5px 5px 0 #6acaf7;
          text-align: center;
          margin: 0 auto;
          background-color: #125488;
-         margin-right: 10rem;
+         margin-right: 11.5rem;
        
        
      }
@@ -4891,7 +4992,7 @@ box-shadow: 5px 5px 0 #6acaf7;
        align-items: center;
        justify-content: center;
        background-color: #125488;
-       height: 22vh;
+       height: 22%;
        
        
   }
@@ -4916,7 +5017,7 @@ box-shadow: 5px 5px 0 #6acaf7;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
         
-        height: 32vh;
+        height: 32%;
         background-color: #125488;
         max-width: 100%;
     }
@@ -4998,8 +5099,8 @@ box-shadow: 5px 5px 0 #6acaf7;
         bottom: 0;
     }
     .ngrb{
-        margin-right: 3rem;
-        margin-left: 2.5rem;
+        margin-left: 3.2rem;
+        
         
     }
     .ngrb2{
@@ -5146,11 +5247,11 @@ box-shadow: 5px 5px 0 #6acaf7;
     font-weight: bold;
     position: absolute;
     --size: 32px;
-    left: calc(-1 * var(--size) -8px);
+    left: calc(-1 * var(--size) -25px);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 22px;
+    top: 26px;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -5486,6 +5587,7 @@ box-shadow: 5px 5px 0 #6acaf7;
     }
     .ngrb{
         margin-right: 1rem;
+        margin-left: 4rem;
         
     }
     .ngrb2{
@@ -5531,7 +5633,7 @@ box-shadow: 5px 5px 0 #6acaf7;
 #head .btn1{
     width: 7.25rem;
     color: #000;
-    height: 2.5rem;
+    height: 3.5rem;
     padding: 0 1.25rem;
     font-size:0.75rem;
     font-weight: 500;
@@ -5677,11 +5779,11 @@ box-shadow: 5px 5px 0 #6acaf7;
     font-weight: bold;
     position: absolute;
     --size: 32px;
-    left: calc(-1 * var(--size) -8px);
+    left: calc(-1 * var(--size) -25px);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 22px;
+    top: 26px;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -5862,7 +5964,7 @@ box-shadow: 5px 5px 0 #6acaf7;
        align-items: center;
        justify-content: center;
        background-color: #125488;
-       height: 29vh;
+       height: 29%;
        
   }
 
@@ -5887,7 +5989,7 @@ box-shadow: 5px 5px 0 #6acaf7;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
         
-        height: 30vh;
+        height: 30%;
         background-color: #125488;
         max-width: 100%;
     }
@@ -5972,7 +6074,7 @@ box-shadow: 5px 5px 0 #6acaf7;
         bottom: 0;
     }
     .ngrb{
-        margin-right: 1rem;
+        margin-left: 2rem;
         
     }
     #head img{
@@ -5992,7 +6094,7 @@ box-shadow: 5px 5px 0 #6acaf7;
 
 
 #navi li{
-    padding: 0 1.25rem;
+    padding: 0 1rem;
     font-size: 1rem;
     font-weight: 500;
     
@@ -6115,11 +6217,11 @@ box-shadow: 5px 5px 0 #6acaf7;
     font-weight: bold;
     position: absolute;
     --size: 32px;
-    left: calc(-1 * var(--size) -8px);
+    left: calc(-1 * var(--size) -25px);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 22px;
+    top: 26px;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -6339,7 +6441,7 @@ box-shadow: 5px 5px 0 #6acaf7;
        align-items: center;
        justify-content: center;
        background-color: #125488;
-       height: 30vh;
+       height: 30%;
        
   }
 
@@ -6363,7 +6465,7 @@ box-shadow: 5px 5px 0 #6acaf7;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
         
-        height: 32vh;
+        height: 32%;
         background-color: #125488;
         max-width: 100%;
     }
@@ -6591,11 +6693,11 @@ box-shadow: 5px 5px 0 #6acaf7;
     font-weight: bold;
     position: absolute;
     --size: 32px;
-    left: calc(-1 * var(--size) -8px);
+    left: calc(-1 * var(--size) -25px);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 22px;
+    top: 26px;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -6824,8 +6926,8 @@ padding: 0.9375rem 0.9375rem;
        align-items: center;
        justify-content: center;
        background-color: #125488;
-       height: 36vh;
-       padding: 10px 40px;
+       height: 30%;
+       padding: 10px 25px;
        
   }
 
@@ -6849,7 +6951,7 @@ padding: 0.9375rem 0.9375rem;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
         
-        height: 32vh;
+        height: 32%;
         background-color: #125488;
         max-width: 100%;
     }
@@ -7079,11 +7181,11 @@ box-shadow: 5px 5px 0 #807b7a;
     font-weight: bold;
     position: absolute;
     --size: 32px;
-    left: calc(-1 * var(--size) -8px);
+    left: calc(-1 * var(--size) -25px);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 22px;
+    top: 26px;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -7312,8 +7414,8 @@ padding: 0.9375rem 0.9375rem;
        align-items: center;
        justify-content: center;
        background-color: #125488;
-       height: 36vh;
-       padding: 10px 40px;
+       height: 33%;
+       padding: 10px 25px;
        
   }
 
@@ -7337,7 +7439,7 @@ padding: 0.9375rem 0.9375rem;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
         
-        height: 32vh;
+        height: 32%;
         background-color: #125488;
         max-width: 100%;
     }
@@ -7464,7 +7566,7 @@ padding: 0.9375rem 0.9375rem;
     width: 8.25rem;
     color: #000;
     height: 3rem;
-    margin-top: -1rem;
+    
     font-size:0.85rem;
     font-weight: 500;
     border: 1px solid #fff;
@@ -7566,11 +7668,11 @@ box-shadow: 5px 5px 0 #6acaf7;
     font-weight: bold;
     position: absolute;
     --size: 32px;
-    left: calc(-1 * var(--size) -8px);
+    left: calc(-1 * var(--size) -25px);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 22px;
+    top: 26px;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -7802,7 +7904,7 @@ padding: 0.9375rem 0.9375rem;
        align-items: center;
        justify-content: center;
        background-color: #125488;
-       height: 35vh;
+       height: 35%;
       
        
   }
@@ -7826,8 +7928,8 @@ padding: 0.9375rem 0.9375rem;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
-        
-        height: 26vh;
+        gap: 1rem;
+        height: 35%;
         background-color: #125488;
         max-width: 100%;
     }
@@ -8061,7 +8163,7 @@ box-shadow: 5px 5px 0 #6acaf7;
     font-weight: bold;
     
     --size: 32px;
-    left: calc(-1 * var(--size) -8px);
+    left: calc(-1 * var(--size) -25px);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
@@ -8299,7 +8401,7 @@ padding: 0.9375rem 0.9375rem;
        align-items: center;
        justify-content: center;
        background-color: #125488;
-       height: 35vh;
+       height: 35%;
       
        
   }
@@ -8324,7 +8426,7 @@ padding: 0.9375rem 0.9375rem;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
         
-        height: 38vh;
+        height: 38%;
         background-color: #125488;
         max-width: 100%;
     }
@@ -8491,6 +8593,12 @@ text-align: center;
 justify-content: center;
 align-items: center;
 }
+.sm-srv h2{
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 3rem;
+    margin-top: -0.3rem;
+}
 .sm-srv {
     width: 100%;
     display: grid;
@@ -8555,11 +8663,11 @@ box-shadow: 5px 5px 0 #807b7a;
     font-weight: bold;
     position: absolute;
     --size: 22px;
-    left: calc(-1 * var(--size) -8px);
+    left: calc(-1 * var(--size) -18px);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 22px;
+    top: 26px;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -8792,8 +8900,8 @@ padding: 0.9375rem 0.9375rem;
        align-items: center;
        justify-content: center;
        background-color: #125488;
-       height: 42vh;
-       padding: 10px 40px;
+       height: 32%;
+       padding: 10px 25px;
        
   }
 
@@ -8817,7 +8925,7 @@ padding: 0.9375rem 0.9375rem;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
         
-        height: 29vh;
+        height: 32%;
         background-color: #125488;
         max-width: 100%;
     }
@@ -8974,22 +9082,29 @@ padding: 0.9375rem 0.9375rem;
     flex-direction: column;
     max-width: 100%;
     margin-top: 3.25rem;
-    padding-bottom: 8rem;
+    padding-bottom: 1rem;
 }
 
 #services h4{
 margin-bottom:3rem;
-font-size: 0.95rem;
+font-size: 1.1rem;
 color: #023358;
 text-align: center;
 justify-content: center;
 align-items: center;
 }
+.sm-srv h2{
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding-left: 3rem;
+    margin-top: -0.3rem;
+}
 .sm-srv {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin: 0px auto 46rem auto;
+    margin: 0px auto 28rem auto;
     gap: 1rem;
     counter-reset: my-awesome-counter;
     list-style: none;
@@ -9013,7 +9128,7 @@ align-items: center;
 }
   .sm-srv li {
     color: #fff;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
     padding-right: 1rem;
@@ -9027,7 +9142,7 @@ align-items: center;
       border-radius: 0.75rem;
       transition: ease 0.3s;
       text-decoration: none;
-      font-size: 1.2rem;
+      font-size: 1rem;
       font-weight: 600;
       color: #125488;
   }
@@ -9048,12 +9163,12 @@ box-shadow: 5px 5px 0 #807b7a;
     font-size: 1rem;
     font-weight: bold;
     position: absolute;
-    --size: 32px;
-    left: calc(-1 * var(--size) -8px);
+    --size: 22px;
+    left: calc(-1 * var(--size) -18px);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 15px;
+    top: 26px;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -9285,8 +9400,8 @@ padding: 0.9375rem 0.9375rem;
        align-items: center;
        justify-content: center;
        background-color: #125488;
-       height: 42vh;
-       padding: 10px 40px;
+       height: 32%;
+       padding: 10px 20px;
        
   }
 
@@ -9310,7 +9425,7 @@ padding: 0.9375rem 0.9375rem;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
         
-        height: 59vh;
+        height: 35%;
         background-color: #125488;
         max-width: 100%;
     }
@@ -9779,8 +9894,8 @@ padding: 0.9375rem 0.9375rem;
        align-items: center;
        justify-content: center;
        background-color: #125488;
-       height: 45vh;
-       padding: 10px 40px;
+       height: 45%;
+       padding: 10px 20px;
        
   }
 
@@ -9804,7 +9919,7 @@ padding: 0.9375rem 0.9375rem;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
         
-        height: 59vh;
+        height: 36%;
         background-color: #125488;
         max-width: 100%;
     }
