@@ -7886,7 +7886,7 @@ padding: 0.9375rem 0.9375rem;
         font-weight: 400;
         }
  }
- @media (max-width:390px){
+ @media (max-width:390px) , (orientation:landscape){
     #head{
         max-width: 100%;
     }
@@ -8052,13 +8052,14 @@ box-shadow: 5px 5px 0 #6acaf7;
     color: #ED6239;
     font-size: 1.5rem;
     font-weight: bold;
-    position: absolute;
+    
     --size: 32px;
     left: calc(-1 * var(--size) -8px);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
     top: 22px;
+    
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -8291,7 +8292,7 @@ padding: 0.9375rem 0.9375rem;
        align-items: center;
        justify-content: center;
        background-color: #125488;
-       height: 35vh;
+       height: 55vh;
       
        
   }
@@ -8316,7 +8317,7 @@ padding: 0.9375rem 0.9375rem;
         grid-template-columns: repeat(1,1fr);
         align-items: center;
         
-        height: 29vh;
+        height: 55vh;
         background-color: #125488;
         max-width: 100%;
     }
