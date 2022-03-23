@@ -7436,7 +7436,7 @@ box-shadow: 5px 5px 0 #6acaf7;
     flex-direction: column;
     max-width: 100%;
     margin-top: 3.25rem;
-    padding-bottom: 10rem;
+    padding-bottom: 13rem;
 }
 
 #services h4{
@@ -7455,7 +7455,7 @@ align-items: center;
     gap: 1rem;
     counter-reset: my-awesome-counter;
     list-style: none;
-    padding-left: 2rem;
+    padding-left: 3rem;
     padding-right: 2rem;
     line-height: 2;
     
@@ -7912,7 +7912,7 @@ box-shadow: 5px 5px 0 #6acaf7;
     flex-direction: column;
     max-width: 100%;
     margin-top: 3.25rem;
-    padding-bottom: 20rem;
+    padding-bottom: 23rem;
 }
 
 #services h4{
@@ -7931,7 +7931,7 @@ align-items: center;
     gap: 1rem;
     counter-reset: my-awesome-counter;
     list-style: none;
-    padding-left: 2rem;
+    padding-left: 3rem;
     padding-right: 2rem;
     line-height: 2;
     
@@ -8415,11 +8415,11 @@ align-items: center;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin: 0px auto 8rem auto;
+    margin: 0px auto 12rem auto;
     gap: 1rem;
     counter-reset: my-awesome-counter;
     list-style: none;
-    padding-left: 2rem;
+    padding-left: 3rem;
     padding-right: 2rem;
     line-height: 2;
     
@@ -8902,11 +8902,11 @@ align-items: center;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin: 0px auto 20rem auto;
+    margin: 0px auto 23rem auto;
     gap: 1rem;
     counter-reset: my-awesome-counter;
     list-style: none;
-    padding-left: 2rem;
+    padding-left: 3rem;
     padding-right: 2rem;
     line-height: 2;
     
@@ -9392,7 +9392,7 @@ align-items: center;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin: 0px auto 18rem auto;
+    margin: 0px auto 21rem auto;
     gap: 1rem;
     counter-reset: my-awesome-counter;
     list-style: none;
@@ -9896,7 +9896,7 @@ align-items: center;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin: 0px auto 24rem auto;
+    margin: 0px auto 27rem auto;
     gap: 1rem;
     counter-reset: my-awesome-counter;
     list-style: none;
@@ -10397,12 +10397,12 @@ align-items: center;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin: 0px auto 32rem auto;
+    margin: 0px auto 28rem auto;
     gap: 1rem;
     counter-reset: my-awesome-counter;
     list-style: none;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     line-height: 2;
     
     
