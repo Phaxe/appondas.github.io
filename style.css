@@ -212,6 +212,8 @@ opacity: 0;
 }
 .col{
     margin-top: 25px;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 .col .text{
     padding: 15px 55px;
