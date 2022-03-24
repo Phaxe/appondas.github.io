@@ -9541,7 +9541,7 @@ padding: 0.9375rem 0.9375rem;
         font-weight: 400;
         }
  }
-@media (max-width:430px){
+@media (max-width:477px){
     #services{
         display: flex;
         justify-content: space-between;
