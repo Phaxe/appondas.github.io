@@ -111,14 +111,7 @@ video{
     position: relative;
 
 }
-#mobile {
-    color: #fff;
-    display: none;
-    
-}
-#close{
-    display: none;
-}
+
 #navi .menu-item:after{
     content: "";
     position: absolute;
@@ -336,6 +329,37 @@ text-align: center;
 justify-content: center;
 align-items: center;
 }
+.card-wrap {
+    position: relative;
+}
+.card-wrap::before, .card-wrap::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border: 5px solid #024375;
+    transition: all 0.4s ease-out;
+}
+.card-wrap::before {
+    background-color: #023358;
+    top: -5px;
+    left: -1px;
+}
+.card-wrap::after {
+    bottom: -15px;
+    right: -15px;
+    z-index: -500;
+}
+.card-wrap:hover::before {
+    top: 15px;
+    left: 15px;
+    
+}
+.card-wrap:hover::after {
+    bottom: 15px;
+    right: 15px;
+}
 .sm-srv {
     width: 100%;
     display: grid;
@@ -348,12 +372,14 @@ align-items: center;
     padding-right: 2rem;
     line-height: 2;
     height: 20rem;
+   
     
   }
   .sm-srv h2{
     color: #fff;
     font-size: 1.2rem;
-    padding-left: 5rem;
+    padding-left: 10rem;
+    padding-top: 3rem;
     margin-top: -0.3rem;
 }
 .sm-srv h6{
@@ -362,9 +388,10 @@ align-items: center;
     text-align: center;
     font-size: 0.75em;
     padding-top: 1rem;
+    
     font-weight: 400;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     color: #fff;
 }
   .sm-srv li {
@@ -378,7 +405,7 @@ align-items: center;
   }
  .sm-srv a{
       background-color: #024375;
-      border: 3px solid rgba(5, 63, 129, 0.125);
+     
       border-radius: 0.75rem;
       transition: ease 0.3s;
       text-decoration: none;
@@ -394,7 +421,7 @@ transition: ease 0.3s;
   .sm-srv a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
-box-shadow: 5px 5px 0 #6acaf7;
+
     
       }
   .sm-srv li::before {
@@ -404,11 +431,11 @@ box-shadow: 5px 5px 0 #6acaf7;
     font-weight: bold;
     position: absolute;
     --size: 32px;
-    left: calc(-1 * var(--size) -8px);
+    left: calc(-1 * var(--size) -6rem);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 22px;
+    top: 4.5rem;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -679,6 +706,59 @@ footer .copyrights h6{
     font-weight: 400;
 
 }
+#hamb{
+    display: none;
+    position:fixed;
+    top:90%;
+    left: 90%;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+    font-size: 3rem;
+    z-index: 888;
+    
+    
+    
+    
+}
+#menu2{
+    display: none;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: -120rem;
+    margin-top: -55rem;
+    margin-right: -100rem;
+    padding-left: 50rem;
+    background-color: #000;
+    
+    width: -300px;
+    
+
+   }
+   #menu2.active{
+       display: flex;
+   }
+   #menu2.close{
+       
+   }
+   #menu2 li{
+       padding-bottom: 3rem;
+       list-style: none;
+       padding-right: 15rem;
+       padding-bottom: 5rem;
+       padding-top: 5rem;
+       padding-left: 15rem;
+       
+       
+   }
+   #menu2 a{
+    text-decoration: none;
+   }
+   #menu2 .close{
+       color: red;
+       margin-left: -100rem;
+       padding-top: 1rem;
+   }
 .socialIcons{
     position: fixed;
     top: 50%;
@@ -1007,7 +1087,8 @@ footer .copyrights h6{
             flex-direction: column;
             max-width: 100%;
             margin-top: 3.25rem;
-            margin-bottom: 28rem;
+            margin-bottom: 10rem;
+            padding-right: 1rem;
         }
         
         #services h4{
@@ -1018,44 +1099,83 @@ footer .copyrights h6{
         justify-content: center;
         align-items: center;
         }
+        .card-wrap {
+            position: relative;
+        }
+        .card-wrap::before, .card-wrap::after {
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: -1;
+            border: 5px solid #024375;
+            transition: all 0.4s ease-out;
+        }
+        .card-wrap::before {
+            background-color: #023358;
+            top: -5px;
+            left: -1px;
+        }
+        .card-wrap::after {
+            bottom: -15px;
+            right: -15px;
+            z-index: -500;
+        }
+        .card-wrap:hover::before {
+            top: 15px;
+            left: 15px;
+            
+        }
+        .card-wrap:hover::after {
+            bottom: 15px;
+            right: 15px;
+        }
         .sm-srv {
             width: 100%;
             display: grid;
-            grid-template-columns: repeat(1,1fr);
+            grid-template-columns: repeat(3,1fr);
             margin: 0 auto;
-            gap: 1rem;
+            gap: 6rem;
             counter-reset: my-awesome-counter;
             list-style: none;
-            padding-left: 20rem;
-            padding-right: 20rem;
-            
+            padding-left: 2rem;
+            padding-right: 2rem;
             line-height: 2;
+            height: 20rem;
+           
+            
           }
-         
+          .sm-srv h2{
+            color: #fff;
+            font-size: 1.2rem;
+            padding-left: 8rem;
+            padding-top: 2rem;
+            margin-top: -0.3rem;
+        }
         .sm-srv h6{
             justify-content: center;
             align-items: center;
             text-align: center;
             font-size: 0.75em;
             padding-top: 1rem;
+            
             font-weight: 400;
-            padding-left: 1rem;
-            padding-right: 1rem;
-            padding-bottom: 2rem;
+            padding-left: 4rem;
+            padding-right: 4rem;
             color: #fff;
         }
           .sm-srv li {
             color: #fff;
             margin: 0 0 0.5rem 0;
             padding-left: 2.8rem;
-            
+            padding-right: 1rem;
             padding-top: 1.2rem;
             counter-increment: my-awesome-counter;
             position: relative;
           }
          .sm-srv a{
               background-color: #024375;
-              border: 3px solid rgba(5, 63, 129, 0.125);
+             
               border-radius: 0.75rem;
               transition: ease 0.3s;
               text-decoration: none;
@@ -1071,7 +1191,7 @@ footer .copyrights h6{
           .sm-srv a:hover{
             transform: translateX(-20px);
         transition: ease-in 0.3s;
-        box-shadow: 5px 5px 0 #6acaf7;
+        
             
               }
           .sm-srv li::before {
@@ -1081,16 +1201,16 @@ footer .copyrights h6{
             font-weight: bold;
             position: absolute;
             --size: 32px;
-            left: calc(-1 * var(--size) -20px);
+            left: calc(-1 * var(--size) -5rem);
             line-height: var(--size);
             width: var(--size);
             height: var(--size);
-            top: 26px;
+            top: 3.5rem;
             transform: rotate(-10deg);
             background: #fff;
             border-radius: 50%;
             text-align: center;
-            box-shadow: 1px 1px 0 black;
+            box-shadow: 1px 1px 0 #ED6239;
           }
           #banner{
             max-width: 100%;
@@ -1637,7 +1757,8 @@ footer .copyrights h6{
             flex-direction: column;
             max-width: 100%;
             margin-top: 3.25rem;
-            margin-bottom: 28rem;
+            margin-bottom: 3rem;
+            padding-right: 1rem;
         }
         
         #services h4{
@@ -1648,44 +1769,83 @@ footer .copyrights h6{
         justify-content: center;
         align-items: center;
         }
+        .card-wrap {
+            position: relative;
+        }
+        .card-wrap::before, .card-wrap::after {
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: -1;
+            border: 5px solid #024375;
+            transition: all 0.4s ease-out;
+        }
+        .card-wrap::before {
+            background-color: #023358;
+            top: -5px;
+            left: -1px;
+        }
+        .card-wrap::after {
+            bottom: -15px;
+            right: -15px;
+            z-index: -500;
+        }
+        .card-wrap:hover::before {
+            top: 15px;
+            left: 15px;
+            
+        }
+        .card-wrap:hover::after {
+            bottom: 15px;
+            right: 15px;
+        }
         .sm-srv {
             width: 100%;
             display: grid;
-            grid-template-columns: repeat(1,1fr);
+            grid-template-columns: repeat(3,1fr);
             margin: 0 auto;
-            gap: 1rem;
+            gap: 6rem;
             counter-reset: my-awesome-counter;
             list-style: none;
-            padding-left: 20rem;
-            padding-right: 20rem;
-            
+            padding-left: 2rem;
+            padding-right: 2rem;
             line-height: 2;
+            height: 20rem;
+           
+            
           }
-         
+          .sm-srv h2{
+            color: #fff;
+            font-size: 1.2rem;
+            padding-left: 6rem;
+            padding-top: 2rem;
+            margin-top: -0.3rem;
+        }
         .sm-srv h6{
             justify-content: center;
             align-items: center;
             text-align: center;
             font-size: 0.75em;
             padding-top: 1rem;
+            
             font-weight: 400;
-            padding-left: 1rem;
-            padding-right: 1rem;
-            padding-bottom: 2rem;
+            padding-left: 4rem;
+            padding-right: 4rem;
             color: #fff;
         }
           .sm-srv li {
             color: #fff;
             margin: 0 0 0.5rem 0;
             padding-left: 2.8rem;
-            
+            padding-right: 1rem;
             padding-top: 1.2rem;
             counter-increment: my-awesome-counter;
             position: relative;
           }
          .sm-srv a{
               background-color: #024375;
-              border: 3px solid rgba(5, 63, 129, 0.125);
+             
               border-radius: 0.75rem;
               transition: ease 0.3s;
               text-decoration: none;
@@ -1701,7 +1861,7 @@ footer .copyrights h6{
           .sm-srv a:hover{
             transform: translateX(-20px);
         transition: ease-in 0.3s;
-        box-shadow: 5px 5px 0 #6acaf7;
+        
             
               }
           .sm-srv li::before {
@@ -1711,16 +1871,16 @@ footer .copyrights h6{
             font-weight: bold;
             position: absolute;
             --size: 32px;
-            left: calc(-1 * var(--size) -20px);
+            left: calc(-1 * var(--size) -3.5rem);
             line-height: var(--size);
             width: var(--size);
             height: var(--size);
-            top: 26px;
+            top: 3.5rem;
             transform: rotate(-10deg);
             background: #fff;
             border-radius: 50%;
             text-align: center;
-            box-shadow: 1px 1px 0 black;
+            box-shadow: 1px 1px 0 #ED6239;
           }
           #banner{
             max-width: 100%;
@@ -2268,7 +2428,9 @@ font-size: 0.85rem;
         flex-direction: column;
         max-width: 100%;
         margin-top: 3.25rem;
-        margin-bottom: 32rem;
+        margin-bottom: 3rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
     
     #services h4{
@@ -2279,27 +2441,68 @@ font-size: 0.85rem;
     justify-content: center;
     align-items: center;
     }
+    .card-wrap {
+        position: relative;
+    }
+    .card-wrap::before, .card-wrap::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        border: 5px solid #024375;
+        transition: all 0.4s ease-out;
+    }
+    .card-wrap::before {
+        background-color: #023358;
+        top: -5px;
+        left: -1px;
+    }
+    .card-wrap::after {
+        bottom: -15px;
+        right: -15px;
+        z-index: -500;
+    }
+    .card-wrap:hover::before {
+        top: 15px;
+        left: 15px;
+        
+    }
+    .card-wrap:hover::after {
+        bottom: 15px;
+        right: 15px;
+    }
     .sm-srv {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(3,1fr);
         margin: 0 auto;
-        gap: 1rem;
+        gap: 4rem;
         counter-reset: my-awesome-counter;
         list-style: none;
-        padding-left: 15rem;
-        padding-right: 15rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
         line-height: 2;
+        height: 20rem;
+       
+        
       }
-     
+      .sm-srv h2{
+        color: #fff;
+        font-size: 1rem;
+        padding-left: 4.5rem;
+        padding-top: 2rem;
+        margin-top: -0.3rem;
+    }
     .sm-srv h6{
         justify-content: center;
         align-items: center;
         text-align: center;
         font-size: 0.75em;
         padding-top: 1rem;
+        padding-bottom: 1rem;
         font-weight: 400;
-        padding-left: 1rem;
+        padding-left: 2rem;
         padding-right: 1rem;
         color: #fff;
     }
@@ -2307,14 +2510,14 @@ font-size: 0.85rem;
         color: #fff;
         margin: 0 0 0.5rem 0;
         padding-left: 2.8rem;
-        
+        padding-right: 1rem;
         padding-top: 1.2rem;
         counter-increment: my-awesome-counter;
         position: relative;
       }
      .sm-srv a{
           background-color: #024375;
-          border: 3px solid rgba(5, 63, 129, 0.125);
+         
           border-radius: 0.75rem;
           transition: ease 0.3s;
           text-decoration: none;
@@ -2330,7 +2533,7 @@ font-size: 0.85rem;
       .sm-srv a:hover{
         transform: translateX(-20px);
     transition: ease-in 0.3s;
-    box-shadow: 5px 5px 0 #6acaf7;
+    
         
           }
       .sm-srv li::before {
@@ -2340,16 +2543,16 @@ font-size: 0.85rem;
         font-weight: bold;
         position: absolute;
         --size: 32px;
-        left: calc(-1 * var(--size) -20px);
+        left: calc(-1 * var(--size) -2rem);
         line-height: var(--size);
         width: var(--size);
         height: var(--size);
-        top: 26px;
+        top: 3.5rem;
         transform: rotate(-10deg);
         background: #fff;
         border-radius: 50%;
         text-align: center;
-        box-shadow: 1px 1px 0 black;
+        box-shadow: 1px 1px 0 #ED6239;
       }
       #banner{
         max-width: 100%;
@@ -2698,7 +2901,9 @@ font-size: 0.85rem;
         flex-direction: column;
         max-width: 100%;
         margin-top: 3.25rem;
-        margin-bottom: 32rem;
+        margin-bottom: 3rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
     
     #services h4{
@@ -2709,17 +2914,118 @@ font-size: 0.85rem;
     justify-content: center;
     align-items: center;
     }
+    .card-wrap {
+        position: relative;
+    }
+    .card-wrap::before, .card-wrap::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        border: 5px solid #024375;
+        transition: all 0.4s ease-out;
+    }
+    .card-wrap::before {
+        background-color: #023358;
+        top: -5px;
+        left: -1px;
+    }
+    .card-wrap::after {
+        bottom: -15px;
+        right: -15px;
+        z-index: -500;
+    }
+    .card-wrap:hover::before {
+        top: 15px;
+        left: 15px;
+        
+    }
+    .card-wrap:hover::after {
+        bottom: 15px;
+        right: 15px;
+    }
     .sm-srv {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(3,1fr);
         margin: 0 auto;
-        gap: 1rem;
+        gap: 4rem;
         counter-reset: my-awesome-counter;
         list-style: none;
-        padding-left: 12rem;
-        padding-right: 12rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
         line-height: 2;
+        height: 20rem;
+       
+        
+      }
+      .sm-srv h2{
+        color: #fff;
+        font-size: 1rem;
+        padding-left: 4.5rem;
+        padding-top: 2rem;
+        margin-top: -0.3rem;
+    }
+    .sm-srv h6{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 0.75em;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-weight: 400;
+        padding-left: 2rem;
+        padding-right: 1rem;
+        color: #fff;
+    }
+      .sm-srv li {
+        color: #fff;
+        margin: 0 0 0.5rem 0;
+        padding-left: 2.8rem;
+        padding-right: 1rem;
+        padding-top: 1.2rem;
+        counter-increment: my-awesome-counter;
+        position: relative;
+      }
+     .sm-srv a{
+          background-color: #024375;
+         
+          border-radius: 0.75rem;
+          transition: ease 0.3s;
+          text-decoration: none;
+          font-size: 1.2rem;
+          font-weight: 600;
+          color: #125488;
+      }
+      .sm-srv a:hover li{
+    color: #ED6239;
+    transition: ease 0.3s;
+    
+      }
+      .sm-srv a:hover{
+        transform: translateX(-20px);
+    transition: ease-in 0.3s;
+    
+        
+          }
+      .sm-srv li::before {
+        content: counter(my-awesome-counter);
+        color: #ED6239;
+        font-size: 1.5rem;
+        font-weight: bold;
+        position: absolute;
+        --size: 32px;
+        left: calc(-1 * var(--size) -2rem);
+        line-height: var(--size);
+        width: var(--size);
+        height: var(--size);
+        top: 3.5rem;
+        transform: rotate(-10deg);
+        background: #fff;
+        border-radius: 50%;
+        text-align: center;
+        box-shadow: 1px 1px 0 #ED6239;
       }
      #foot{
         width: 100%;
@@ -3088,7 +3394,9 @@ font-size: 0.85rem;
         flex-direction: column;
         max-width: 100%;
         margin-top: 3.25rem;
-        padding-bottom: 2rem;
+        margin-bottom: 3rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
     
     #services h4{
@@ -3099,32 +3407,69 @@ font-size: 0.85rem;
     justify-content: center;
     align-items: center;
     }
+    .card-wrap {
+        position: relative;
+    }
+    .card-wrap::before, .card-wrap::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        border: 5px solid #024375;
+        transition: all 0.4s ease-out;
+    }
+    .card-wrap::before {
+        background-color: #023358;
+        top: -5px;
+        left: -1px;
+    }
+    .card-wrap::after {
+        bottom: -15px;
+        right: -15px;
+        z-index: -500;
+    }
+    .card-wrap:hover::before {
+        top: 15px;
+        left: 15px;
+        
+    }
+    .card-wrap:hover::after {
+        bottom: 15px;
+        right: 15px;
+    }
     .sm-srv {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(3,1fr);
         margin: 0 auto;
-        gap: 1rem;
+        gap: 4rem;
         counter-reset: my-awesome-counter;
         list-style: none;
-        padding-left: 14rem;
-        padding-right: 14rem;
-        
+        padding-left: 0rem;
+        padding-right: 0rem;
         line-height: 2;
-        
+        height: 20rem;
+       
         
       }
-     
+      .sm-srv h2{
+        color: #fff;
+        font-size: 1rem;
+        padding-left: 4.5rem;
+        padding-top: 1rem;
+        margin-top: -0.3rem;
+    }
     .sm-srv h6{
         justify-content: center;
         align-items: center;
         text-align: center;
         font-size: 0.75em;
         padding-top: 1rem;
-        font-weight: 400;
-        padding-left: 1rem;
-        padding-right: 1rem;
         padding-bottom: 1rem;
+        font-weight: 400;
+        padding-left: 2rem;
+        padding-right: 1rem;
         color: #fff;
     }
       .sm-srv li {
@@ -3138,7 +3483,7 @@ font-size: 0.85rem;
       }
      .sm-srv a{
           background-color: #024375;
-          border: 3px solid rgba(5, 63, 129, 0.125);
+         
           border-radius: 0.75rem;
           transition: ease 0.3s;
           text-decoration: none;
@@ -3154,7 +3499,7 @@ font-size: 0.85rem;
       .sm-srv a:hover{
         transform: translateX(-20px);
     transition: ease-in 0.3s;
-    box-shadow: 5px 5px 0 #6acaf7;
+    
         
           }
       .sm-srv li::before {
@@ -3164,11 +3509,11 @@ font-size: 0.85rem;
         font-weight: bold;
         position: absolute;
         --size: 32px;
-        left: calc(-1 * var(--size) -25px);
+        left: calc(-1 * var(--size) -2rem);
         line-height: var(--size);
         width: var(--size);
         height: var(--size);
-        top: 22px;
+        top: 2.3rem;
         transform: rotate(-10deg);
         background: #fff;
         border-radius: 50%;
@@ -3709,7 +4054,9 @@ font-size: 0.85rem;
         flex-direction: column;
         max-width: 100%;
         margin-top: 3.25rem;
-        margin-bottom: 22rem;
+        margin-bottom: 3rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
     
     #services h4{
@@ -3720,29 +4067,68 @@ font-size: 0.85rem;
     justify-content: center;
     align-items: center;
     }
+    .card-wrap {
+        position: relative;
+    }
+    .card-wrap::before, .card-wrap::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        border: 5px solid #024375;
+        transition: all 0.4s ease-out;
+    }
+    .card-wrap::before {
+        background-color: #023358;
+        top: -5px;
+        left: -1px;
+    }
+    .card-wrap::after {
+        bottom: -15px;
+        right: -15px;
+        z-index: -500;
+    }
+    .card-wrap:hover::before {
+        top: 15px;
+        left: 15px;
+        
+    }
+    .card-wrap:hover::after {
+        bottom: 15px;
+        right: 15px;
+    }
     .sm-srv {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(3,1fr);
         margin: 0 auto;
-        gap: 1rem;
+        gap: 4rem;
         counter-reset: my-awesome-counter;
         list-style: none;
-        padding-left: 8rem;
-        padding-right: 8rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
         line-height: 2;
-        
+        height: 20rem;
+       
         
       }
-     
+      .sm-srv h2{
+        color: #fff;
+        font-size: 1rem;
+        padding-left: 4.5rem;
+        padding-top: 1rem;
+        margin-top: -0.3rem;
+    }
     .sm-srv h6{
         justify-content: center;
         align-items: center;
         text-align: center;
         font-size: 0.75em;
         padding-top: 1rem;
+        padding-bottom: 1rem;
         font-weight: 400;
-        padding-left: 1rem;
+        padding-left: 2rem;
         padding-right: 1rem;
         color: #fff;
     }
@@ -3757,7 +4143,7 @@ font-size: 0.85rem;
       }
      .sm-srv a{
           background-color: #024375;
-          border: 3px solid rgba(5, 63, 129, 0.125);
+         
           border-radius: 0.75rem;
           transition: ease 0.3s;
           text-decoration: none;
@@ -3773,7 +4159,7 @@ font-size: 0.85rem;
       .sm-srv a:hover{
         transform: translateX(-20px);
     transition: ease-in 0.3s;
-    box-shadow: 5px 5px 0 #6acaf7;
+    
         
           }
       .sm-srv li::before {
@@ -3783,11 +4169,11 @@ font-size: 0.85rem;
         font-weight: bold;
         position: absolute;
         --size: 32px;
-        left: calc(-1 * var(--size) -25px);
+        left: calc(-1 * var(--size) -2rem);
         line-height: var(--size);
         width: var(--size);
         height: var(--size);
-        top: 22px;
+        top: 2.3rem;
         transform: rotate(-10deg);
         background: #fff;
         border-radius: 50%;
@@ -4188,8 +4574,9 @@ font-size: 0.85rem;
         flex-direction: column;
         max-width: 100%;
         margin-top: 3.25rem;
-        margin-bottom: 28rem;
-        padding-right: 1rem;
+        margin-bottom: 30rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
     
     #services h4{
@@ -4200,29 +4587,68 @@ font-size: 0.85rem;
     justify-content: center;
     align-items: center;
     }
+    .card-wrap {
+        position: relative;
+    }
+    .card-wrap::before, .card-wrap::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        border: 5px solid #024375;
+        transition: all 0.4s ease-out;
+    }
+    .card-wrap::before {
+        background-color: #023358;
+        top: -5px;
+        left: -1px;
+    }
+    .card-wrap::after {
+        bottom: -15px;
+        right: -15px;
+        z-index: -500;
+    }
+    .card-wrap:hover::before {
+        top: 15px;
+        left: 15px;
+        
+    }
+    .card-wrap:hover::after {
+        bottom: 15px;
+        right: 15px;
+    }
     .sm-srv {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         margin: 0 auto;
-        gap: 1rem;
+        gap: 4rem;
         counter-reset: my-awesome-counter;
         list-style: none;
         padding-left: 8rem;
         padding-right: 8rem;
         line-height: 2;
-        
+        height: 20rem;
+       
         
       }
-     
+      .sm-srv h2{
+        color: #fff;
+        font-size: 1rem;
+        padding-left: 14.5rem;
+        padding-top: 1rem;
+        margin-top: -0.3rem;
+    }
     .sm-srv h6{
         justify-content: center;
         align-items: center;
         text-align: center;
         font-size: 0.75em;
         padding-top: 1rem;
+        padding-bottom: 1rem;
         font-weight: 400;
-        padding-left: 1rem;
+        padding-left: 2rem;
         padding-right: 1rem;
         color: #fff;
     }
@@ -4237,7 +4663,7 @@ font-size: 0.85rem;
       }
      .sm-srv a{
           background-color: #024375;
-          border: 3px solid rgba(5, 63, 129, 0.125);
+         
           border-radius: 0.75rem;
           transition: ease 0.3s;
           text-decoration: none;
@@ -4253,21 +4679,21 @@ font-size: 0.85rem;
       .sm-srv a:hover{
         transform: translateX(-20px);
     transition: ease-in 0.3s;
-    box-shadow: 5px 5px 0 #6acaf7;
+    
         
           }
       .sm-srv li::before {
         content: counter(my-awesome-counter);
         color: #ED6239;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: bold;
         position: absolute;
-        --size: 32px;
-        left: calc(-1 * var(--size) -25px);
+        --size: 28px;
+        left: calc(-1 * var(--size) -12rem);
         line-height: var(--size);
         width: var(--size);
         height: var(--size);
-        top: 26px;
+        top: 2.5rem;
         transform: rotate(-10deg);
         background: #fff;
         border-radius: 50%;
@@ -5056,8 +5482,9 @@ footer .copyrights h6{
         flex-direction: column;
         max-width: 100%;
         margin-top: 3.25rem;
-        margin-bottom: 31rem;
-        padding-right: 1rem;
+        margin-bottom: 30rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
     
     #services h4{
@@ -5068,29 +5495,68 @@ footer .copyrights h6{
     justify-content: center;
     align-items: center;
     }
+    .card-wrap {
+        position: relative;
+    }
+    .card-wrap::before, .card-wrap::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        border: 5px solid #024375;
+        transition: all 0.4s ease-out;
+    }
+    .card-wrap::before {
+        background-color: #023358;
+        top: -5px;
+        left: -1px;
+    }
+    .card-wrap::after {
+        bottom: -15px;
+        right: -15px;
+        z-index: -500;
+    }
+    .card-wrap:hover::before {
+        top: 15px;
+        left: 15px;
+        
+    }
+    .card-wrap:hover::after {
+        bottom: 15px;
+        right: 15px;
+    }
     .sm-srv {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        margin: 0 auto 2rem auto;
-        gap: 1rem;
+        margin: 0 auto;
+        gap: 4rem;
         counter-reset: my-awesome-counter;
         list-style: none;
-        padding-left: 8rem;
-        padding-right: 8rem;
+        padding-left: 7rem;
+        padding-right: 7rem;
         line-height: 2;
-        
+        height: 20rem;
+       
         
       }
-     
+      .sm-srv h2{
+        color: #fff;
+        font-size: 1rem;
+        padding-left: 11.5rem;
+        padding-top: 1rem;
+        margin-top: -0.3rem;
+    }
     .sm-srv h6{
         justify-content: center;
         align-items: center;
         text-align: center;
         font-size: 0.75em;
         padding-top: 1rem;
+        padding-bottom: 1.5rem;
         font-weight: 400;
-        padding-left: 1rem;
+        padding-left: 2rem;
         padding-right: 1rem;
         color: #fff;
     }
@@ -5105,7 +5571,7 @@ footer .copyrights h6{
       }
      .sm-srv a{
           background-color: #024375;
-          border: 3px solid rgba(5, 63, 129, 0.125);
+         
           border-radius: 0.75rem;
           transition: ease 0.3s;
           text-decoration: none;
@@ -5121,21 +5587,21 @@ footer .copyrights h6{
       .sm-srv a:hover{
         transform: translateX(-20px);
     transition: ease-in 0.3s;
-    box-shadow: 5px 5px 0 #6acaf7;
+    
         
           }
       .sm-srv li::before {
         content: counter(my-awesome-counter);
         color: #ED6239;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: bold;
         position: absolute;
-        --size: 32px;
-        left: calc(-1 * var(--size) -25px);
+        --size: 28px;
+        left: calc(-1 * var(--size) -9rem);
         line-height: var(--size);
         width: var(--size);
         height: var(--size);
-        top: 26px;
+        top: 2.5rem;
         transform: rotate(-10deg);
         background: #fff;
         border-radius: 50%;
@@ -5534,8 +6000,9 @@ footer .copyrights h6{
     flex-direction: column;
     max-width: 100%;
     margin-top: 3.25rem;
-    margin-bottom: 28rem;
-    padding-right: 1rem;
+    margin-bottom: 30rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 #services h4{
@@ -5546,29 +6013,68 @@ text-align: center;
 justify-content: center;
 align-items: center;
 }
+.card-wrap {
+    position: relative;
+}
+.card-wrap::before, .card-wrap::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border: 5px solid #024375;
+    transition: all 0.4s ease-out;
+}
+.card-wrap::before {
+    background-color: #023358;
+    top: -5px;
+    left: -1px;
+}
+.card-wrap::after {
+    bottom: -15px;
+    right: -15px;
+    z-index: -500;
+}
+.card-wrap:hover::before {
+    top: 15px;
+    left: 15px;
+    
+}
+.card-wrap:hover::after {
+    bottom: 15px;
+    right: 15px;
+}
 .sm-srv {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin: 0 auto 5rem auto;
-    gap: 1rem;
+    margin: 0 auto;
+    gap: 4rem;
     counter-reset: my-awesome-counter;
     list-style: none;
-    padding-left: 9rem;
-    padding-right: 9rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
     line-height: 2;
-    
+    height: 20rem;
+   
     
   }
- 
+  .sm-srv h2{
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 11.5rem;
+    padding-top: 1rem;
+    margin-top: -0.3rem;
+}
 .sm-srv h6{
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 0.75em;
     padding-top: 1rem;
+    padding-bottom: 1.5rem;
     font-weight: 400;
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-right: 1rem;
     color: #fff;
 }
@@ -5583,7 +6089,7 @@ align-items: center;
   }
  .sm-srv a{
       background-color: #024375;
-      border: 3px solid rgba(5, 63, 129, 0.125);
+     
       border-radius: 0.75rem;
       transition: ease 0.3s;
       text-decoration: none;
@@ -5599,21 +6105,21 @@ transition: ease 0.3s;
   .sm-srv a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
-box-shadow: 5px 5px 0 #6acaf7;
+
     
       }
   .sm-srv li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     position: absolute;
-    --size: 32px;
-    left: calc(-1 * var(--size) -25px);
+    --size: 28px;
+    left: calc(-1 * var(--size) -9rem);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 26px;
+    top: 2.5rem;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -5983,7 +6489,8 @@ footer .copyrights h6{
     max-width: 100%;
     margin-top: 3.25rem;
     margin-bottom: 22rem;
-    padding-right: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 #services h4{
@@ -5994,29 +6501,68 @@ text-align: center;
 justify-content: center;
 align-items: center;
 }
+.card-wrap {
+    position: relative;
+}
+.card-wrap::before, .card-wrap::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border: 5px solid #024375;
+    transition: all 0.4s ease-out;
+}
+.card-wrap::before {
+    background-color: #023358;
+    top: -5px;
+    left: -1px;
+}
+.card-wrap::after {
+    bottom: -15px;
+    right: -15px;
+    z-index: -500;
+}
+.card-wrap:hover::before {
+    top: 15px;
+    left: 15px;
+    
+}
+.card-wrap:hover::after {
+    bottom: 15px;
+    right: 15px;
+}
 .sm-srv {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin: 0 auto 5rem auto;
-    gap: 1rem;
+    margin: 0 auto;
+    gap: 4rem;
     counter-reset: my-awesome-counter;
     list-style: none;
     padding-left: 6rem;
     padding-right: 6rem;
     line-height: 2;
-    
+    height: 20rem;
+   
     
   }
- 
+  .sm-srv h2{
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 11.5rem;
+    padding-top: 1rem;
+    margin-top: -0.3rem;
+}
 .sm-srv h6{
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 0.75em;
     padding-top: 1rem;
+    padding-bottom: 1.5rem;
     font-weight: 400;
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-right: 1rem;
     color: #fff;
 }
@@ -6031,7 +6577,7 @@ align-items: center;
   }
  .sm-srv a{
       background-color: #024375;
-      border: 3px solid rgba(5, 63, 129, 0.125);
+     
       border-radius: 0.75rem;
       transition: ease 0.3s;
       text-decoration: none;
@@ -6047,21 +6593,21 @@ transition: ease 0.3s;
   .sm-srv a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
-box-shadow: 5px 5px 0 #6acaf7;
+
     
       }
   .sm-srv li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     position: absolute;
-    --size: 32px;
-    left: calc(-1 * var(--size) -25px);
+    --size: 28px;
+    left: calc(-1 * var(--size) -9rem);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 26px;
+    top: 2.5rem;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -6466,7 +7012,8 @@ box-shadow: 5px 5px 0 #6acaf7;
     max-width: 100%;
     margin-top: 3.25rem;
     margin-bottom: 22rem;
-    padding-right: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 #services h4{
@@ -6477,29 +7024,68 @@ text-align: center;
 justify-content: center;
 align-items: center;
 }
+.card-wrap {
+    position: relative;
+}
+.card-wrap::before, .card-wrap::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border: 5px solid #024375;
+    transition: all 0.4s ease-out;
+}
+.card-wrap::before {
+    background-color: #023358;
+    top: -5px;
+    left: -1px;
+}
+.card-wrap::after {
+    bottom: -15px;
+    right: -15px;
+    z-index: -500;
+}
+.card-wrap:hover::before {
+    top: 15px;
+    left: 15px;
+    
+}
+.card-wrap:hover::after {
+    bottom: 15px;
+    right: 15px;
+}
 .sm-srv {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin: 0 auto 5rem auto;
-    gap: 1rem;
+    margin: 0 auto;
+    gap: 4rem;
     counter-reset: my-awesome-counter;
     list-style: none;
-    padding-left: 7rem;
-    padding-right: 7rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
     line-height: 2;
-    
+    height: 20rem;
+   
     
   }
- 
+  .sm-srv h2{
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 11.5rem;
+    padding-top: 1rem;
+    margin-top: -0.3rem;
+}
 .sm-srv h6{
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 0.75em;
     padding-top: 1rem;
+    padding-bottom: 1.5rem;
     font-weight: 400;
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-right: 1rem;
     color: #fff;
 }
@@ -6514,7 +7100,7 @@ align-items: center;
   }
  .sm-srv a{
       background-color: #024375;
-      border: 3px solid rgba(5, 63, 129, 0.125);
+     
       border-radius: 0.75rem;
       transition: ease 0.3s;
       text-decoration: none;
@@ -6530,21 +7116,21 @@ transition: ease 0.3s;
   .sm-srv a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
-box-shadow: 5px 5px 0 #6acaf7;
-    
+
+    s
       }
   .sm-srv li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     position: absolute;
-    --size: 32px;
-    left: calc(-1 * var(--size) -25px);
+    --size: 28px;
+    left: calc(-1 * var(--size) -9rem);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 26px;
+    top: 2.5rem;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -6997,8 +7583,9 @@ box-shadow: 5px 5px 0 #6acaf7;
     flex-direction: column;
     max-width: 100%;
     margin-top: 3.25rem;
-    margin-bottom: 22rem;
-    padding-right: 1rem;
+    margin-bottom: 21rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 #services h4{
@@ -7009,29 +7596,68 @@ text-align: center;
 justify-content: center;
 align-items: center;
 }
+.card-wrap {
+    position: relative;
+}
+.card-wrap::before, .card-wrap::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border: 5px solid #024375;
+    transition: all 0.4s ease-out;
+}
+.card-wrap::before {
+    background-color: #023358;
+    top: -5px;
+    left: -1px;
+}
+.card-wrap::after {
+    bottom: -15px;
+    right: -15px;
+    z-index: -500;
+}
+.card-wrap:hover::before {
+    top: 15px;
+    left: 15px;
+    
+}
+.card-wrap:hover::after {
+    bottom: 15px;
+    right: 15px;
+}
 .sm-srv {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin: 0 auto 5rem auto;
-    gap: 1rem;
+    margin: 0 auto;
+    gap: 4rem;
     counter-reset: my-awesome-counter;
     list-style: none;
-    padding-left: 2rem;
-    padding-right: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     line-height: 2;
-    
+    height: 20rem;
+   
     
   }
- 
+  .sm-srv h2{
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 10rem;
+    padding-top: 1rem;
+    margin-top: -0.3rem;
+}
 .sm-srv h6{
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 0.75em;
     padding-top: 1rem;
+    padding-bottom: 1.5rem;
     font-weight: 400;
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-right: 1rem;
     color: #fff;
 }
@@ -7046,7 +7672,7 @@ align-items: center;
   }
  .sm-srv a{
       background-color: #024375;
-      border: 3px solid rgba(5, 63, 129, 0.125);
+     
       border-radius: 0.75rem;
       transition: ease 0.3s;
       text-decoration: none;
@@ -7062,21 +7688,21 @@ transition: ease 0.3s;
   .sm-srv a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
-box-shadow: 5px 5px 0 #6acaf7;
+
     
       }
   .sm-srv li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     position: absolute;
-    --size: 32px;
-    left: calc(-1 * var(--size) -25px);
+    --size: 28px;
+    left: calc(-1 * var(--size) -7.5rem);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 26px;
+    top: 2.5rem;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -7436,7 +8062,9 @@ box-shadow: 5px 5px 0 #6acaf7;
     flex-direction: column;
     max-width: 100%;
     margin-top: 3.25rem;
-    padding-bottom: 13rem;
+    margin-bottom: 21rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 #services h4{
@@ -7447,29 +8075,68 @@ text-align: center;
 justify-content: center;
 align-items: center;
 }
+.card-wrap {
+    position: relative;
+}
+.card-wrap::before, .card-wrap::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border: 5px solid #024375;
+    transition: all 0.4s ease-out;
+}
+.card-wrap::before {
+    background-color: #023358;
+    top: -5px;
+    left: -1px;
+}
+.card-wrap::after {
+    bottom: -15px;
+    right: -15px;
+    z-index: -500;
+}
+.card-wrap:hover::before {
+    top: 15px;
+    left: 15px;
+    
+}
+.card-wrap:hover::after {
+    bottom: 15px;
+    right: 15px;
+}
 .sm-srv {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
     margin: 0 auto;
-    gap: 1rem;
+    gap: 4rem;
     counter-reset: my-awesome-counter;
     list-style: none;
-    padding-left: 3rem;
+    padding-left: 2rem;
     padding-right: 2rem;
     line-height: 2;
-    
+    height: 20rem;
+   
     
   }
- 
+  .sm-srv h2{
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 11rem;
+    padding-top: 1rem;
+    margin-top: -0.3rem;
+}
 .sm-srv h6{
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 0.75em;
     padding-top: 1rem;
+    padding-bottom: 1.5rem;
     font-weight: 400;
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-right: 1rem;
     color: #fff;
 }
@@ -7484,7 +8151,7 @@ align-items: center;
   }
  .sm-srv a{
       background-color: #024375;
-      border: 3px solid rgba(5, 63, 129, 0.125);
+     
       border-radius: 0.75rem;
       transition: ease 0.3s;
       text-decoration: none;
@@ -7500,21 +8167,21 @@ transition: ease 0.3s;
   .sm-srv a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
-box-shadow: 5px 5px 0 #6acaf7;
+
     
       }
   .sm-srv li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     position: absolute;
-    --size: 32px;
-    left: calc(-1 * var(--size) -25px);
+    --size: 28px;
+    left: calc(-1 * var(--size) -8.5rem);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 26px;
+    top: 2.5rem;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -7912,7 +8579,9 @@ box-shadow: 5px 5px 0 #6acaf7;
     flex-direction: column;
     max-width: 100%;
     margin-top: 3.25rem;
-    padding-bottom: 23rem;
+    margin-bottom: 26rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 #services h4{
@@ -7923,29 +8592,68 @@ text-align: center;
 justify-content: center;
 align-items: center;
 }
+.card-wrap {
+    position: relative;
+}
+.card-wrap::before, .card-wrap::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border: 5px solid #024375;
+    transition: all 0.4s ease-out;
+}
+.card-wrap::before {
+    background-color: #023358;
+    top: -5px;
+    left: -1px;
+}
+.card-wrap::after {
+    bottom: -15px;
+    right: -15px;
+    z-index: -500;
+}
+.card-wrap:hover::before {
+    top: 15px;
+    left: 15px;
+    
+}
+.card-wrap:hover::after {
+    bottom: 15px;
+    right: 15px;
+}
 .sm-srv {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
     margin: 0 auto;
-    gap: 1rem;
+    gap: 4rem;
     counter-reset: my-awesome-counter;
     list-style: none;
-    padding-left: 3rem;
+    padding-left: 2rem;
     padding-right: 2rem;
     line-height: 2;
-    
+    height: 20rem;
+   
     
   }
- 
+  .sm-srv h2{
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 7.5rem;
+    padding-top: 1rem;
+    margin-top: -0.3rem;
+}
 .sm-srv h6{
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 0.75em;
     padding-top: 1rem;
+    padding-bottom: 1.5rem;
     font-weight: 400;
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-right: 1rem;
     color: #fff;
 }
@@ -7960,7 +8668,7 @@ align-items: center;
   }
  .sm-srv a{
       background-color: #024375;
-      border: 3px solid rgba(5, 63, 129, 0.125);
+     
       border-radius: 0.75rem;
       transition: ease 0.3s;
       text-decoration: none;
@@ -7976,28 +8684,27 @@ transition: ease 0.3s;
   .sm-srv a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
-box-shadow: 5px 5px 0 #6acaf7;
+
     
       }
   .sm-srv li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     position: absolute;
-    --size: 32px;
-    left: calc(-1 * var(--size) -25px);
+    --size: 28px;
+    left: calc(-1 * var(--size) -5rem);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 26px;
+    top: 2.5rem;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
     text-align: center;
     box-shadow: 1px 1px 0 #ED6239;
   }
-  
   #intro h2{
       padding-left: 1rem;
       padding-right: 1rem;
@@ -8400,40 +9107,81 @@ padding: 0.9375rem 0.9375rem;
     flex-direction: column;
     max-width: 100%;
     margin-top: 3.25rem;
-    padding-bottom: 18rem;
+    margin-bottom: 28rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 #services h4{
 margin-bottom:3rem;
-font-size: 1.1rem;
+font-size: 1.5rem;
 color: #023358;
 text-align: center;
 justify-content: center;
 align-items: center;
 }
+.card-wrap {
+    position: relative;
+}
+.card-wrap::before, .card-wrap::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border: 5px solid #024375;
+    transition: all 0.4s ease-out;
+}
+.card-wrap::before {
+    background-color: #023358;
+    top: -5px;
+    left: -1px;
+}
+.card-wrap::after {
+    bottom: -15px;
+    right: -15px;
+    z-index: -500;
+}
+.card-wrap:hover::before {
+    top: 15px;
+    left: 15px;
+    
+}
+.card-wrap:hover::after {
+    bottom: 15px;
+    right: 15px;
+}
 .sm-srv {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin: 0px auto 12rem auto;
-    gap: 1rem;
+    margin: 0 auto;
+    gap: 4rem;
     counter-reset: my-awesome-counter;
     list-style: none;
-    padding-left: 3rem;
+    padding-left: 2rem;
     padding-right: 2rem;
     line-height: 2;
-    
+    height: 20rem;
+   
     
   }
- 
+  .sm-srv h2{
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 7.5rem;
+    padding-top: 1rem;
+    margin-top: -0.3rem;
+}
 .sm-srv h6{
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 0.75em;
     padding-top: 1rem;
+    padding-bottom: 1.5rem;
     font-weight: 400;
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-right: 1rem;
     color: #fff;
 }
@@ -8441,14 +9189,14 @@ align-items: center;
     color: #fff;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
-    padding-right: 0.5rem;
+    padding-right: 1rem;
     padding-top: 1.2rem;
     counter-increment: my-awesome-counter;
     position: relative;
   }
  .sm-srv a{
       background-color: #024375;
-      border: 3px solid rgba(5, 63, 129, 0.125);
+     
       border-radius: 0.75rem;
       transition: ease 0.3s;
       text-decoration: none;
@@ -8464,21 +9212,21 @@ transition: ease 0.3s;
   .sm-srv a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
-box-shadow: 5px 5px 0 #807b7a;
+
     
       }
   .sm-srv li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     position: absolute;
-    --size: 32px;
-    left: calc(-1 * var(--size) -25px);
+    --size: 28px;
+    left: calc(-1 * var(--size) -5rem);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 26px;
+    top: 2.5rem;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -8887,7 +9635,9 @@ padding: 0.9375rem 0.9375rem;
     flex-direction: column;
     max-width: 100%;
     margin-top: 3.25rem;
-    padding-bottom: 17rem;
+    margin-bottom: 31rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 #services h4{
@@ -8898,29 +9648,68 @@ text-align: center;
 justify-content: center;
 align-items: center;
 }
+.card-wrap {
+    position: relative;
+}
+.card-wrap::before, .card-wrap::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border: 5px solid #024375;
+    transition: all 0.4s ease-out;
+}
+.card-wrap::before {
+    background-color: #023358;
+    top: -5px;
+    left: -1px;
+}
+.card-wrap::after {
+    bottom: -15px;
+    right: -15px;
+    z-index: -500;
+}
+.card-wrap:hover::before {
+    top: 15px;
+    left: 15px;
+    
+}
+.card-wrap:hover::after {
+    bottom: 15px;
+    right: 15px;
+}
 .sm-srv {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin: 0px auto 23rem auto;
-    gap: 1rem;
+    margin: 0 auto;
+    gap: 4rem;
     counter-reset: my-awesome-counter;
     list-style: none;
-    padding-left: 3rem;
+    padding-left: 2rem;
     padding-right: 2rem;
     line-height: 2;
-    
+    height: 20rem;
+   
     
   }
- 
+  .sm-srv h2{
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 5.2rem;
+    padding-top: 1rem;
+    margin-top: -0.3rem;
+}
 .sm-srv h6{
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 0.75em;
     padding-top: 1rem;
+    padding-bottom: 1.5rem;
     font-weight: 400;
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-right: 1rem;
     color: #fff;
 }
@@ -8935,7 +9724,7 @@ align-items: center;
   }
  .sm-srv a{
       background-color: #024375;
-      border: 3px solid rgba(5, 63, 129, 0.125);
+     
       border-radius: 0.75rem;
       transition: ease 0.3s;
       text-decoration: none;
@@ -8951,21 +9740,21 @@ transition: ease 0.3s;
   .sm-srv a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
-box-shadow: 5px 5px 0 #6acaf7;
+
     
       }
   .sm-srv li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     position: absolute;
-    --size: 32px;
-    left: calc(-1 * var(--size) -25px);
+    --size: 28px;
+    left: calc(-1 * var(--size) -3rem);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 26px;
+    top: 2.5rem;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -9377,7 +10166,19 @@ padding: 0.9375rem 0.9375rem;
     flex-direction: column;
     max-width: 100%;
     margin-top: 3.25rem;
-    padding-bottom: 17rem;
+    padding-bottom: 13rem;
+}
+
+#services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top: 3.25rem;
+    margin-bottom: 31rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 #services h4{
@@ -9388,41 +10189,75 @@ text-align: center;
 justify-content: center;
 align-items: center;
 }
+.card-wrap {
+    position: relative;
+}
+.card-wrap::before, .card-wrap::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border: 5px solid #024375;
+    transition: all 0.4s ease-out;
+}
+.card-wrap::before {
+    background-color: #023358;
+    top: -5px;
+    left: -1px;
+}
+.card-wrap::after {
+    bottom: -15px;
+    right: -15px;
+    z-index: -500;
+}
+.card-wrap:hover::before {
+    top: 15px;
+    left: 15px;
+    
+}
+.card-wrap:hover::after {
+    bottom: 15px;
+    right: 15px;
+}
 .sm-srv {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin: 0px auto 21rem auto;
-    gap: 1rem;
+    margin: 0 auto;
+    gap: 4rem;
     counter-reset: my-awesome-counter;
     list-style: none;
     padding-left: 2rem;
-    padding-right: 1rem;
+    padding-right: 2rem;
     line-height: 2;
-    
+    height: 20rem;
+   
     
   }
- .sm-srv h2{
-     color: #fff;
-     font-size: 1rem;
-     padding-left: 5rem;
-     margin-top: -0.3rem;
- }
+  .sm-srv h2{
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 5.2rem;
+    padding-top: 1rem;
+    margin-top: -0.3rem;
+}
 .sm-srv h6{
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 0.75em;
     padding-top: 1rem;
+    padding-bottom: 1.5rem;
     font-weight: 400;
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-right: 1rem;
     color: #fff;
 }
   .sm-srv li {
     color: #fff;
-    margin: 0 1rem 0.5rem 0;
-    padding-left: 1rem;
+    margin: 0 0 0.5rem 0;
+    padding-left: 2.8rem;
     padding-right: 1rem;
     padding-top: 1.2rem;
     counter-increment: my-awesome-counter;
@@ -9430,7 +10265,7 @@ align-items: center;
   }
  .sm-srv a{
       background-color: #024375;
-      border: 3px solid rgba(5, 63, 129, 0.125);
+     
       border-radius: 0.75rem;
       transition: ease 0.3s;
       text-decoration: none;
@@ -9446,22 +10281,21 @@ transition: ease 0.3s;
   .sm-srv a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
-box-shadow: 5px 5px 0 #6acaf7;
+
     
       }
   .sm-srv li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    
-    --size: 32px;
-    left: calc(-1 * var(--size) -25px);
+    position: absolute;
+    --size: 28px;
+    left: calc(-1 * var(--size) -3rem);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 22px;
-    
+    top: 2.5rem;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -9875,7 +10709,9 @@ padding: 0.9375rem 0.9375rem;
     flex-direction: column;
     max-width: 100%;
     margin-top: 3.25rem;
-    padding-bottom: 1rem;
+    margin-bottom: 31rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
 }
 
 #services h4{
@@ -9886,41 +10722,73 @@ text-align: center;
 justify-content: center;
 align-items: center;
 }
-.sm-srv h2{
-    color: #fff;
-    font-size: 1rem;
-    padding-left: 3rem;
-    margin-top: -0.3rem;
+.card-wrap {
+    position: relative;
+}
+.card-wrap::before, .card-wrap::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border: 5px solid #024375;
+    transition: all 0.4s ease-out;
+}
+.card-wrap::before {
+    background-color: #023358;
+    top: -5px;
+    left: -1px;
+}
+.card-wrap::after {
+    bottom: -15px;
+    right: -15px;
+    z-index: -500;
+}
+.card-wrap:hover::before {
+    top: 15px;
+    left: 15px;
+    
+}
+.card-wrap:hover::after {
+    bottom: 15px;
+    right: 15px;
 }
 .sm-srv {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin: 0px auto 27rem auto;
-    gap: 1rem;
+    margin: 0 auto;
+    gap: 4rem;
     counter-reset: my-awesome-counter;
     list-style: none;
     padding-left: 2rem;
     padding-right: 2rem;
     line-height: 2;
-    
+    height: 20rem;
+   
     
   }
- 
+  .sm-srv h2{
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 4.5rem;
+    padding-top: 1rem;
+    margin-top: -0.3rem;
+}
 .sm-srv h6{
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 0.75em;
     padding-top: 1rem;
+    padding-bottom: 1.5rem;
     font-weight: 400;
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-right: 1rem;
     color: #fff;
 }
   .sm-srv li {
     color: #fff;
-    font-size: 0.85rem;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
     padding-right: 1rem;
@@ -9930,11 +10798,11 @@ align-items: center;
   }
  .sm-srv a{
       background-color: #024375;
-      border: 3px solid rgba(5, 63, 129, 0.125);
+     
       border-radius: 0.75rem;
       transition: ease 0.3s;
       text-decoration: none;
-      font-size: 1rem;
+      font-size: 1.2rem;
       font-weight: 600;
       color: #125488;
   }
@@ -9946,21 +10814,21 @@ transition: ease 0.3s;
   .sm-srv a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
-box-shadow: 5px 5px 0 #807b7a;
+
     
       }
   .sm-srv li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     position: absolute;
-    --size: 22px;
-    left: calc(-1 * var(--size) -18px);
+    --size: 28px;
+    left: calc(-1 * var(--size) -2.3rem);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 26px;
+    top: 2.5rem;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -10375,7 +11243,9 @@ padding: 0.9375rem 0.9375rem;
     flex-direction: column;
     max-width: 100%;
     margin-top: 3.25rem;
-    padding-bottom: 1rem;
+    margin-bottom: 31rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
 }
 
 #services h4{
@@ -10386,42 +11256,73 @@ text-align: center;
 justify-content: center;
 align-items: center;
 }
-.sm-srv h2{
-    color: #fff;
-    font-size: 0.85rem;
-    font-weight: 600;
-    padding-left: 3rem;
-    margin-top: -0.3rem;
+.card-wrap {
+    position: relative;
+}
+.card-wrap::before, .card-wrap::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border: 5px solid #024375;
+    transition: all 0.4s ease-out;
+}
+.card-wrap::before {
+    background-color: #023358;
+    top: -5px;
+    left: -1px;
+}
+.card-wrap::after {
+    bottom: -15px;
+    right: -15px;
+    z-index: -500;
+}
+.card-wrap:hover::before {
+    top: 15px;
+    left: 15px;
+    
+}
+.card-wrap:hover::after {
+    bottom: 15px;
+    right: 15px;
 }
 .sm-srv {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin: 0px auto 28rem auto;
-    gap: 1rem;
+    margin: 0 auto;
+    gap: 4rem;
     counter-reset: my-awesome-counter;
     list-style: none;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     line-height: 2;
-    
+    height: 20rem;
+   
     
   }
- 
+  .sm-srv h2{
+    color: #fff;
+    font-size: 0.85rem;
+    padding-left: 4.5rem;
+    padding-top: 1rem;
+    margin-top: -0.3rem;
+}
 .sm-srv h6{
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 0.75em;
+    font-size: 0.65em;
     padding-top: 1rem;
+    padding-bottom: 1.5rem;
     font-weight: 400;
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-right: 1rem;
     color: #fff;
 }
   .sm-srv li {
     color: #fff;
-    font-size: 0.85rem;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
     padding-right: 1rem;
@@ -10431,11 +11332,11 @@ align-items: center;
   }
  .sm-srv a{
       background-color: #024375;
-      border: 3px solid rgba(5, 63, 129, 0.125);
+     
       border-radius: 0.75rem;
       transition: ease 0.3s;
       text-decoration: none;
-      font-size: 1rem;
+      font-size: 1.2rem;
       font-weight: 600;
       color: #125488;
   }
@@ -10447,7 +11348,7 @@ transition: ease 0.3s;
   .sm-srv a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
-box-shadow: 5px 5px 0 #807b7a;
+
     
       }
   .sm-srv li::before {
@@ -10456,12 +11357,12 @@ box-shadow: 5px 5px 0 #807b7a;
     font-size: 1rem;
     font-weight: bold;
     position: absolute;
-    --size: 22px;
-    left: calc(-1 * var(--size) -18px);
+    --size: 24px;
+    left: calc(-1 * var(--size) -2.3rem);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 26px;
+    top: 2.5rem;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;
@@ -10875,47 +11776,86 @@ padding: 0.9375rem 0.9375rem;
     flex-direction: column;
     max-width: 100%;
     margin-top: 3.25rem;
-    margin-bottom: 24rem;
+    margin-bottom: 35rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
 }
 
 #services h4{
 margin-bottom:3rem;
-font-size: 0.95rem;
+font-size: 1.1rem;
 color: #023358;
 text-align: center;
 justify-content: center;
 align-items: center;
 }
+.card-wrap {
+    position: relative;
+}
+.card-wrap::before, .card-wrap::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border: 5px solid #024375;
+    transition: all 0.4s ease-out;
+}
+.card-wrap::before {
+    background-color: #023358;
+    top: -5px;
+    left: -1px;
+}
+.card-wrap::after {
+    bottom: -15px;
+    right: -15px;
+    z-index: -500;
+}
+.card-wrap:hover::before {
+    top: 15px;
+    left: 15px;
+    
+}
+.card-wrap:hover::after {
+    bottom: 15px;
+    right: 15px;
+}
 .sm-srv {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin: 0px auto 35rem auto;
-    gap: 1rem;
+    margin: 0 auto;
+    gap: 4rem;
     counter-reset: my-awesome-counter;
     list-style: none;
-    padding-left: 1rem;
-    padding-right: 0.5rem;
-    line-height: 1.5;
-    
+    padding-left: 2rem;
+    padding-right: 2rem;
+    line-height: 2;
+    height: 20rem;
+   
     
   }
- 
+  .sm-srv h2{
+    color: #fff;
+    font-size: 0.75rem;
+    padding-left: 3.5rem;
+    padding-top: 1rem;
+    margin-top: -0.3rem;
+}
 .sm-srv h6{
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 0.75em;
+    font-size: 0.65em;
     padding-top: 1rem;
+    padding-bottom: 1.5rem;
     font-weight: 400;
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-right: 1rem;
-    padding-bottom: 1rem;
     color: #fff;
 }
   .sm-srv li {
     color: #fff;
-    font-size: 0.75rem;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
     padding-right: 1rem;
@@ -10925,7 +11865,7 @@ align-items: center;
   }
  .sm-srv a{
       background-color: #024375;
-      border: 3px solid rgba(5, 63, 129, 0.125);
+     
       border-radius: 0.75rem;
       transition: ease 0.3s;
       text-decoration: none;
@@ -10941,7 +11881,7 @@ transition: ease 0.3s;
   .sm-srv a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
-box-shadow: 5px 5px 0 #807b7a;
+
     
       }
   .sm-srv li::before {
@@ -10950,12 +11890,12 @@ box-shadow: 5px 5px 0 #807b7a;
     font-size: 1rem;
     font-weight: bold;
     position: absolute;
-    --size: 32px;
-    left: calc(-1 * var(--size) -8px);
+    --size: 24px;
+    left: calc(-1 * var(--size) -1.5rem);
     line-height: var(--size);
     width: var(--size);
     height: var(--size);
-    top: 15px;
+    top: 2.3rem;
     transform: rotate(-10deg);
     background: #fff;
     border-radius: 50%;

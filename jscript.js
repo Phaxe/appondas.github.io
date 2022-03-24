@@ -1,13 +1,13 @@
-const bar= document.getElementById('bar');
+const menubtn= document.getElementById('menubtn');
 const close= document.getElementById('close');
-const nav = document.getElementById('navi'); 
-if (bar){
-    bar.addEventListener('click' ,()=>{
-        nav.classList.add('active');
+const menu2 = document.getElementById('menu2'); 
+if (menubtn){
+    menubtn.addEventListener('click' ,()=>{
+        menu2.classList.add('active');
     })
 }
 if (close){
     close.addEventListener('click' ,()=>{
-        nav.classList.remove('active');
+        menu2.classList.remove('active');
     })
 }
