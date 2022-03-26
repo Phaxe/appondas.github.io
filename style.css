@@ -7117,7 +7117,7 @@ transition: ease 0.3s;
     transform: translateX(-20px);
 transition: ease-in 0.3s;
 
-    s
+    
       }
   .sm-srv li::before {
     content: counter(my-awesome-counter);
@@ -7442,7 +7442,7 @@ transition: ease-in 0.3s;
         font-size: 0.75rem;
         font-weight: 400;
         }
- }
+    }
 
  @media (max-width:678px){
     #head{
