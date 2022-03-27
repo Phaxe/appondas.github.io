@@ -37,11 +37,11 @@ video{
     bottom: 0;
 }
 
-.ngrb{
+.first-logo{
     margin-right: 50rem;
 }
 
-.ngrb2{
+.Small-logo{
     display: none;
 }
 #hero{
@@ -182,16 +182,16 @@ opacity: 0;
     height: 25vh;
     width: 100%;
 }
-#poop{
+#mega-menu-2nd-part{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 40%;
 }
-#poop .text{
+#mega-menu-2nd-part .text{
     width: 90%;
     }
-#poop2{
+#megamenu-2nddropdown{
     display: grid;
     justify-content: center;
     align-items: center;
@@ -237,16 +237,16 @@ opacity: 0;
 
 }
 
-#poop .btn2:hover{
+#mega-menu-2nd-part .btn2:hover{
     color: #fff;
     box-shadow:inset 200px 0 0 0 #ED6239; 
     cursor: pointer;
 }
-#poop .btn2:hover i{
+#mega-menu-2nd-part .btn2:hover i{
     transform: translateX(55%) scale(1.1);
     transition: ease 0.3s;
 }
-#poop2 .col .btn3{
+#megamenu-2nddropdown .col .btn3{
     width: 200px;
     height: 50px;
     font-size: 1.25rem;
@@ -261,17 +261,17 @@ opacity: 0;
 
 }
 
-#poop2 .btn3:hover{
+#megamenu-2nddropdown .btn3:hover{
    color: #fff;
    box-shadow:inset 200px 0 0 0 #ED6239; 
    cursor: pointer;
 }
-#poop2 .btn3:hover i{
+#megamenu-2nddropdown .btn3:hover i{
    transform: translateX(55%) scale(1.1);
    transition: ease 0.3s;
 }
 
-#poop2 .col .btn2{
+#megamenu-2nddropdown .col .btn2{
     padding: 15px;
     font-size: 1.25rem;
     border: 1px solid transparent;
@@ -295,7 +295,7 @@ opacity: 0;
     cursor: pointer;
     color: #fff;
 }
-#intro{
+#introduction{
     max-width: 100%;
     justify-content: center;
     align-items: center;
@@ -303,7 +303,7 @@ opacity: 0;
     margin: 1rem auto;
 }
 
-#intro h2{
+#introduction h2{
     text-align: center;
     
     color: #125488;
@@ -360,7 +360,7 @@ align-items: center;
     bottom: 15px;
     right: 15px;
 }
-.sm-srv {
+.sub-services {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -375,14 +375,14 @@ align-items: center;
    
     
   }
-  .sm-srv h2{
+  .sub-services h2{
     color: #fff;
     font-size: 1.2rem;
     padding-left: 10rem;
     padding-top: 3rem;
     margin-top: -0.3rem;
 }
-.sm-srv h6{
+.sub-services h6{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -394,7 +394,7 @@ align-items: center;
     padding-right: 4rem;
     color: #fff;
 }
-  .sm-srv li {
+  .sub-services li {
     color: #fff;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
@@ -403,7 +403,7 @@ align-items: center;
     counter-increment: my-awesome-counter;
     position: relative;
   }
- .sm-srv a{
+ .sub-services a{
       background-color: #024375;
      
       border-radius: 0.75rem;
@@ -413,18 +413,18 @@ align-items: center;
       font-weight: 600;
       color: #125488;
   }
-  .sm-srv a:hover li{
+  .sub-services a:hover li{
 color: #ED6239;
 transition: ease 0.3s;
 
   }
-  .sm-srv a:hover{
+  .sub-services a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
 
     
       }
-  .sm-srv li::before {
+  .sub-services li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
     font-size: 1.5rem;
@@ -824,10 +824,10 @@ footer .copyrights h6{
             top: 0;
             bottom: 0;
         }
-        .ngrb2{
+        .Small-logo{
             display: none;
         }
-        .ngrb{
+        .first-logo{
             margin-right: 5rem;
         }
         
@@ -970,7 +970,7 @@ footer .copyrights h6{
             height: 25vh;
             width: 100%;
         }
-        #poop{
+        #mega-menu-2nd-part{
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -978,13 +978,13 @@ footer .copyrights h6{
            
         }
      
-        #poop2{
+        #megamenu-2nddropdown{
             display: grid;
             justify-content: center;
             align-items: center;
             margin-top: 20px;
         }
-        #poop2 .col .btn3{
+        #megamenu-2nddropdown .col .btn3{
             width: 170px;
             height: 50px;
             font-size: 0.85rem;
@@ -999,12 +999,12 @@ footer .copyrights h6{
         
         }
         
-        #poop2 .btn3:hover{
+        #megamenu-2nddropdown .btn3:hover{
            color: #fff;
            box-shadow:inset 170px 0 0 0 #ED6239; 
            cursor: pointer;
         }
-        #poop2 .btn3:hover i{
+        #megamenu-2nddropdown .btn3:hover i{
            transform: translateX(55%) scale(1.1);
            transition: ease 0.3s;
         }
@@ -1051,19 +1051,19 @@ footer .copyrights h6{
         
         }
         
-        #poop .btn2:hover{
+        #mega-menu-2nd-part .btn2:hover{
             color: #fff;
             box-shadow:inset 150px 0 0 0 #ED6239; 
             cursor: pointer;
         }
-        #poop .btn2:hover i{
+        #mega-menu-2nd-part .btn2:hover i{
             transform: translateX(55%) scale(1.1);
             transition: ease 0.3s;
         }
         
       
        
-        #intro{
+        #introduction{
             max-width: 100%;
             justify-content: center;
             align-items: center;
@@ -1072,7 +1072,7 @@ footer .copyrights h6{
             margin: 2rem auto;
         }
         
-        #intro h2{
+        #introduction h2{
             text-align: center;
             
             color: #125488;
@@ -1130,7 +1130,7 @@ footer .copyrights h6{
             bottom: 15px;
             right: 15px;
         }
-        .sm-srv {
+        .sub-services {
             width: 100%;
             display: grid;
             grid-template-columns: repeat(3,1fr);
@@ -1145,14 +1145,14 @@ footer .copyrights h6{
            
             
           }
-          .sm-srv h2{
+          .sub-services h2{
             color: #fff;
             font-size: 1.2rem;
             padding-left: 8rem;
             padding-top: 2rem;
             margin-top: -0.3rem;
         }
-        .sm-srv h6{
+        .sub-services h6{
             justify-content: center;
             align-items: center;
             text-align: center;
@@ -1164,7 +1164,7 @@ footer .copyrights h6{
             padding-right: 4rem;
             color: #fff;
         }
-          .sm-srv li {
+          .sub-services li {
             color: #fff;
             margin: 0 0 0.5rem 0;
             padding-left: 2.8rem;
@@ -1173,7 +1173,7 @@ footer .copyrights h6{
             counter-increment: my-awesome-counter;
             position: relative;
           }
-         .sm-srv a{
+         .sub-services a{
               background-color: #024375;
              
               border-radius: 0.75rem;
@@ -1183,18 +1183,18 @@ footer .copyrights h6{
               font-weight: 600;
               color: #125488;
           }
-          .sm-srv a:hover li{
+          .sub-services a:hover li{
         color: #ED6239;
         transition: ease 0.3s;
         
           }
-          .sm-srv a:hover{
+          .sub-services a:hover{
             transform: translateX(-20px);
         transition: ease-in 0.3s;
         
             
               }
-          .sm-srv li::before {
+          .sub-services li::before {
             content: counter(my-awesome-counter);
             color: #ED6239;
             font-size: 1.5rem;
@@ -1494,10 +1494,10 @@ footer .copyrights h6{
             top: 0;
             bottom: 0;
         }
-        .ngrb2{
+        .Small-logo{
             display: none;
         }
-        .ngrb{
+        .first-logo{
             margin-right: 5rem;
         }
         
@@ -1640,7 +1640,7 @@ footer .copyrights h6{
             height: 25vh;
             width: 100%;
         }
-        #poop{
+        #mega-menu-2nd-part{
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -1648,13 +1648,13 @@ footer .copyrights h6{
            
         }
      
-        #poop2{
+        #megamenu-2nddropdown{
             display: grid;
             justify-content: center;
             align-items: center;
             margin-top: 20px;
         }
-        #poop2 .col .btn3{
+        #megamenu-2nddropdown .col .btn3{
             width: 170px;
             height: 50px;
             font-size: 0.85rem;
@@ -1669,12 +1669,12 @@ footer .copyrights h6{
         
         }
         
-        #poop2 .btn3:hover{
+        #megamenu-2nddropdown .btn3:hover{
            color: #fff;
            box-shadow:inset 170px 0 0 0 #ED6239; 
            cursor: pointer;
         }
-        #poop2 .btn3:hover i{
+        #megamenu-2nddropdown .btn3:hover i{
            transform: translateX(55%) scale(1.1);
            transition: ease 0.3s;
         }
@@ -1721,19 +1721,19 @@ footer .copyrights h6{
         
         }
         
-        #poop .btn2:hover{
+        #mega-menu-2nd-part .btn2:hover{
             color: #fff;
             box-shadow:inset 150px 0 0 0 #ED6239; 
             cursor: pointer;
         }
-        #poop .btn2:hover i{
+        #mega-menu-2nd-part .btn2:hover i{
             transform: translateX(55%) scale(1.1);
             transition: ease 0.3s;
         }
         
       
        
-        #intro{
+        #introduction{
             max-width: 100%;
             justify-content: center;
             align-items: center;
@@ -1742,7 +1742,7 @@ footer .copyrights h6{
             margin: 2rem auto;
         }
         
-        #intro h2{
+        #introduction h2{
             text-align: center;
             
             color: #125488;
@@ -1800,7 +1800,7 @@ footer .copyrights h6{
             bottom: 15px;
             right: 15px;
         }
-        .sm-srv {
+        .sub-services {
             width: 100%;
             display: grid;
             grid-template-columns: repeat(3,1fr);
@@ -1815,14 +1815,14 @@ footer .copyrights h6{
            
             
           }
-          .sm-srv h2{
+          .sub-services h2{
             color: #fff;
             font-size: 1.2rem;
             padding-left: 6rem;
             padding-top: 2rem;
             margin-top: -0.3rem;
         }
-        .sm-srv h6{
+        .sub-services h6{
             justify-content: center;
             align-items: center;
             text-align: center;
@@ -1834,7 +1834,7 @@ footer .copyrights h6{
             padding-right: 4rem;
             color: #fff;
         }
-          .sm-srv li {
+          .sub-services li {
             color: #fff;
             margin: 0 0 0.5rem 0;
             padding-left: 2.8rem;
@@ -1843,7 +1843,7 @@ footer .copyrights h6{
             counter-increment: my-awesome-counter;
             position: relative;
           }
-         .sm-srv a{
+         .sub-services a{
               background-color: #024375;
              
               border-radius: 0.75rem;
@@ -1853,18 +1853,18 @@ footer .copyrights h6{
               font-weight: 600;
               color: #125488;
           }
-          .sm-srv a:hover li{
+          .sub-services a:hover li{
         color: #ED6239;
         transition: ease 0.3s;
         
           }
-          .sm-srv a:hover{
+          .sub-services a:hover{
             transform: translateX(-20px);
         transition: ease-in 0.3s;
         
             
               }
-          .sm-srv li::before {
+          .sub-services li::before {
             content: counter(my-awesome-counter);
             color: #ED6239;
             font-size: 1.5rem;
@@ -2165,10 +2165,10 @@ footer .copyrights h6{
         top: 0;
         bottom: 0;
     }
-    .ngrb2{
+    .Small-logo{
         display: none;
     }
-    .ngrb{
+    .first-logo{
         margin-right: 5rem;
     }
     
@@ -2311,7 +2311,7 @@ footer .copyrights h6{
         height: 25vh;
         width: 100%;
     }
-    #poop{
+    #mega-menu-2nd-part{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -2319,13 +2319,13 @@ footer .copyrights h6{
        
     }
  
-    #poop2{
+    #megamenu-2nddropdown{
         display: grid;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
     }
-    #poop2 .col .btn3{
+    #megamenu-2nddropdown .col .btn3{
         width: 170px;
         height: 50px;
         font-size: 0.85rem;
@@ -2340,12 +2340,12 @@ footer .copyrights h6{
     
     }
     
-    #poop2 .btn3:hover{
+    #megamenu-2nddropdown .btn3:hover{
        color: #fff;
        box-shadow:inset 170px 0 0 0 #ED6239; 
        cursor: pointer;
     }
-    #poop2 .btn3:hover i{
+    #megamenu-2nddropdown .btn3:hover i{
        transform: translateX(55%) scale(1.1);
        transition: ease 0.3s;
     }
@@ -2392,19 +2392,19 @@ font-size: 0.85rem;
     
     }
     
-    #poop .btn2:hover{
+    #mega-menu-2nd-part .btn2:hover{
         color: #fff;
         box-shadow:inset 150px 0 0 0 #ED6239; 
         cursor: pointer;
     }
-    #poop .btn2:hover i{
+    #mega-menu-2nd-part .btn2:hover i{
         transform: translateX(55%) scale(1.1);
         transition: ease 0.3s;
     }
     
   
    
-    #intro{
+    #introduction{
         max-width: 100%;
         justify-content: center;
         align-items: center;
@@ -2413,7 +2413,7 @@ font-size: 0.85rem;
         margin: 2rem auto;
     }
     
-    #intro h2{
+    #introduction h2{
         text-align: center;
         
         color: #125488;
@@ -2472,7 +2472,7 @@ font-size: 0.85rem;
         bottom: 15px;
         right: 15px;
     }
-    .sm-srv {
+    .sub-services {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3,1fr);
@@ -2487,14 +2487,14 @@ font-size: 0.85rem;
        
         
       }
-      .sm-srv h2{
+      .sub-services h2{
         color: #fff;
         font-size: 1rem;
         padding-left: 4.5rem;
         padding-top: 2rem;
         margin-top: -0.3rem;
     }
-    .sm-srv h6{
+    .sub-services h6{
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -2506,7 +2506,7 @@ font-size: 0.85rem;
         padding-right: 1rem;
         color: #fff;
     }
-      .sm-srv li {
+      .sub-services li {
         color: #fff;
         margin: 0 0 0.5rem 0;
         padding-left: 2.8rem;
@@ -2515,7 +2515,7 @@ font-size: 0.85rem;
         counter-increment: my-awesome-counter;
         position: relative;
       }
-     .sm-srv a{
+     .sub-services a{
           background-color: #024375;
          
           border-radius: 0.75rem;
@@ -2525,18 +2525,18 @@ font-size: 0.85rem;
           font-weight: 600;
           color: #125488;
       }
-      .sm-srv a:hover li{
+      .sub-services a:hover li{
     color: #ED6239;
     transition: ease 0.3s;
     
       }
-      .sm-srv a:hover{
+      .sub-services a:hover{
         transform: translateX(-20px);
     transition: ease-in 0.3s;
     
         
           }
-      .sm-srv li::before {
+      .sub-services li::before {
         content: counter(my-awesome-counter);
         color: #ED6239;
         font-size: 1.5rem;
@@ -2817,7 +2817,7 @@ font-size: 0.85rem;
   }
 }
 @media (max-width:1100px){
-    #poop2 .col .btn2{
+    #megamenu-2nddropdown .col .btn2{
         font-size: 0.75rem;
         margin-top: -1rem;
     }
@@ -2945,7 +2945,7 @@ font-size: 0.85rem;
         bottom: 15px;
         right: 15px;
     }
-    .sm-srv {
+    .sub-services {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3,1fr);
@@ -2960,14 +2960,14 @@ font-size: 0.85rem;
        
         
       }
-      .sm-srv h2{
+      .sub-services h2{
         color: #fff;
         font-size: 1rem;
         padding-left: 4.5rem;
         padding-top: 2rem;
         margin-top: -0.3rem;
     }
-    .sm-srv h6{
+    .sub-services h6{
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -2979,7 +2979,7 @@ font-size: 0.85rem;
         padding-right: 1rem;
         color: #fff;
     }
-      .sm-srv li {
+      .sub-services li {
         color: #fff;
         margin: 0 0 0.5rem 0;
         padding-left: 2.8rem;
@@ -2988,7 +2988,7 @@ font-size: 0.85rem;
         counter-increment: my-awesome-counter;
         position: relative;
       }
-     .sm-srv a{
+     .sub-services a{
           background-color: #024375;
          
           border-radius: 0.75rem;
@@ -2998,18 +2998,18 @@ font-size: 0.85rem;
           font-weight: 600;
           color: #125488;
       }
-      .sm-srv a:hover li{
+      .sub-services a:hover li{
     color: #ED6239;
     transition: ease 0.3s;
     
       }
-      .sm-srv a:hover{
+      .sub-services a:hover{
         transform: translateX(-20px);
     transition: ease-in 0.3s;
     
         
           }
-      .sm-srv li::before {
+      .sub-services li::before {
         content: counter(my-awesome-counter);
         color: #ED6239;
         font-size: 1.5rem;
@@ -3145,10 +3145,10 @@ font-size: 0.85rem;
         top: 0;
         bottom: 0;
     }
-    .ngrb{
+    .first-logo{
         margin-right: 5rem;
     }
-    .ngrb2{
+    .Small-logo{
         display: none;
     }
     #head img{
@@ -3298,14 +3298,14 @@ font-size: 0.85rem;
         width: 100%;
         padding: 5px 10px;
     }
-    #poop{
+    #mega-menu-2nd-part{
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 45%;
     }
    
-    #poop2{
+    #megamenu-2nddropdown{
         display: grid;
         justify-content: center;
         align-items: center;
@@ -3353,24 +3353,24 @@ font-size: 0.85rem;
     
     }
     
-    #poop .btn2:hover{
+    #mega-menu-2nd-part .btn2:hover{
         color: #024375;
         box-shadow:inset 150px 0 0 0 #ED6239; 
         cursor: pointer;
     }
-    #poop .btn2:hover i{
+    #mega-menu-2nd-part .btn2:hover i{
         transform: translateX(55%) scale(1.1);
         transition: ease 0.3s;
     }
     
-    #poop2 .col .btn2{
+    #megamenu-2nddropdown .col .btn2{
         padding: 15px;
         font-size: 0.75rem;
         border: 1px solid transparent;
         border-radius: 25px;
     }
  
-    #intro{
+    #introduction{
         max-width: 100%;
         justify-content: center;
         align-items: center;
@@ -3379,7 +3379,7 @@ font-size: 0.85rem;
         margin: 1rem auto;
     }
     
-    #intro h2{
+    #introduction h2{
         text-align: center;
         
         color: #125488;
@@ -3438,7 +3438,7 @@ font-size: 0.85rem;
         bottom: 15px;
         right: 15px;
     }
-    .sm-srv {
+    .sub-services {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3,1fr);
@@ -3453,14 +3453,14 @@ font-size: 0.85rem;
        
         
       }
-      .sm-srv h2{
+      .sub-services h2{
         color: #fff;
         font-size: 1rem;
         padding-left: 4.5rem;
         padding-top: 1rem;
         margin-top: -0.3rem;
     }
-    .sm-srv h6{
+    .sub-services h6{
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -3472,7 +3472,7 @@ font-size: 0.85rem;
         padding-right: 1rem;
         color: #fff;
     }
-      .sm-srv li {
+      .sub-services li {
         color: #fff;
         margin: 0 0 0.5rem 0;
         padding-left: 2.8rem;
@@ -3481,7 +3481,7 @@ font-size: 0.85rem;
         counter-increment: my-awesome-counter;
         position: relative;
       }
-     .sm-srv a{
+     .sub-services a{
           background-color: #024375;
          
           border-radius: 0.75rem;
@@ -3491,18 +3491,18 @@ font-size: 0.85rem;
           font-weight: 600;
           color: #125488;
       }
-      .sm-srv a:hover li{
+      .sub-services a:hover li{
     color: #ED6239;
     transition: ease 0.3s;
     
       }
-      .sm-srv a:hover{
+      .sub-services a:hover{
         transform: translateX(-20px);
     transition: ease-in 0.3s;
     
         
           }
-      .sm-srv li::before {
+      .sub-services li::before {
         content: counter(my-awesome-counter);
         color: #ED6239;
         font-size: 1.5rem;
@@ -3805,11 +3805,11 @@ font-size: 0.85rem;
         top: 0;
         bottom: 0;
     }
-    .ngrb{
+    .first-logo{
         margin-right: 2rem;
         margin-left: 2.5rem;
     }
-    .ngrb2{
+    .Small-logo{
         display: none;
     }
     #head img{
@@ -3957,14 +3957,14 @@ font-size: 0.85rem;
         height: 25vh;
         width: 100%;
     }
-    #poop{
+    #mega-menu-2nd-part{
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 45%;
     }
     
-    #poop2{
+    #megamenu-2nddropdown{
         display: grid;
         justify-content: center;
         align-items: center;
@@ -4012,24 +4012,24 @@ font-size: 0.85rem;
     
     }
     
-    #poop .btn2:hover{
+    #mega-menu-2nd-part .btn2:hover{
         color: #FFF;
         box-shadow:inset 150px 0 0 0 #ED6239; 
         cursor: pointer;
     }
-    #poop .btn2:hover i{
+    #mega-menu-2nd-part .btn2:hover i{
         transform: translateX(55%) scale(1.1);
         transition: ease 0.3s;
     }
     
-    #poop2 .col .btn2{
+    #megamenu-2nddropdown .col .btn2{
         padding: 15px;
         font-size: 0.75rem;
         border: 1px solid transparent;
         border-radius: 25px;
     }
     
-    #intro{
+    #introduction{
         max-width: 100%;
         justify-content: center;
         align-items: center;
@@ -4038,7 +4038,7 @@ font-size: 0.85rem;
         margin: 0 auto;
     }
     
-    #intro h2{
+    #introduction h2{
         text-align: center;
         margin-top: 1rem;
         padding: 0 25px;
@@ -4098,7 +4098,7 @@ font-size: 0.85rem;
         bottom: 15px;
         right: 15px;
     }
-    .sm-srv {
+    .sub-services {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3,1fr);
@@ -4113,14 +4113,14 @@ font-size: 0.85rem;
        
         
       }
-      .sm-srv h2{
+      .sub-services h2{
         color: #fff;
         font-size: 1rem;
         padding-left: 4.5rem;
         padding-top: 1rem;
         margin-top: -0.3rem;
     }
-    .sm-srv h6{
+    .sub-services h6{
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -4132,7 +4132,7 @@ font-size: 0.85rem;
         padding-right: 1rem;
         color: #fff;
     }
-      .sm-srv li {
+      .sub-services li {
         color: #fff;
         margin: 0 0 0.5rem 0;
         padding-left: 2.8rem;
@@ -4141,7 +4141,7 @@ font-size: 0.85rem;
         counter-increment: my-awesome-counter;
         position: relative;
       }
-     .sm-srv a{
+     .sub-services a{
           background-color: #024375;
          
           border-radius: 0.75rem;
@@ -4151,18 +4151,18 @@ font-size: 0.85rem;
           font-weight: 600;
           color: #125488;
       }
-      .sm-srv a:hover li{
+      .sub-services a:hover li{
     color: #ED6239;
     transition: ease 0.3s;
     
       }
-      .sm-srv a:hover{
+      .sub-services a:hover{
         transform: translateX(-20px);
     transition: ease-in 0.3s;
     
         
           }
-      .sm-srv li::before {
+      .sub-services li::before {
         content: counter(my-awesome-counter);
         color: #ED6239;
         font-size: 1.5rem;
@@ -4464,10 +4464,10 @@ font-size: 0.85rem;
             top: 0;
             bottom: 0;
         }
-        .ngrb{
+        .first-logo{
             margin-right: 5rem;
         }
-        .ngrb2{
+        .Small-logo{
             display: none;
         }
         #head img{
@@ -4564,7 +4564,7 @@ font-size: 0.85rem;
         cursor: pointer;
         
     }
-    #intro{
+    #introduction{
         margin-top: 1rem;
     }
     #services{
@@ -4618,7 +4618,7 @@ font-size: 0.85rem;
         bottom: 15px;
         right: 15px;
     }
-    .sm-srv {
+    .sub-services {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -4633,14 +4633,14 @@ font-size: 0.85rem;
        
         
       }
-      .sm-srv h2{
+      .sub-services h2{
         color: #fff;
         font-size: 1rem;
         padding-left: 14.5rem;
         padding-top: 1rem;
         margin-top: -0.3rem;
     }
-    .sm-srv h6{
+    .sub-services h6{
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -4652,7 +4652,7 @@ font-size: 0.85rem;
         padding-right: 1rem;
         color: #fff;
     }
-      .sm-srv li {
+      .sub-services li {
         color: #fff;
         margin: 0 0 0.5rem 0;
         padding-left: 2.8rem;
@@ -4661,7 +4661,7 @@ font-size: 0.85rem;
         counter-increment: my-awesome-counter;
         position: relative;
       }
-     .sm-srv a{
+     .sub-services a{
           background-color: #024375;
          
           border-radius: 0.75rem;
@@ -4671,18 +4671,18 @@ font-size: 0.85rem;
           font-weight: 600;
           color: #125488;
       }
-      .sm-srv a:hover li{
+      .sub-services a:hover li{
     color: #ED6239;
     transition: ease 0.3s;
     
       }
-      .sm-srv a:hover{
+      .sub-services a:hover{
         transform: translateX(-20px);
     transition: ease-in 0.3s;
     
         
           }
-      .sm-srv li::before {
+      .sub-services li::before {
         content: counter(my-awesome-counter);
         color: #ED6239;
         font-size: 1.2rem;
@@ -4985,10 +4985,10 @@ font-size: 0.85rem;
         top: 0;
         bottom: 0;
     }
-    .ngrb{
+    .first-logo{
         margin-right: 5rem;
     }
-    .ngrb2{
+    .Small-logo{
         display: none;
     }
     #head img{
@@ -5371,10 +5371,10 @@ footer .copyrights h6{
             top: 0;
             bottom: 0;
         }
-        .ngrb{
+        .first-logo{
             margin-right: 5rem;
         }
-        .ngrb2{
+        .Small-logo{
             display: none;
         }
         #head img{
@@ -5526,7 +5526,7 @@ footer .copyrights h6{
         bottom: 15px;
         right: 15px;
     }
-    .sm-srv {
+    .sub-services {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -5541,14 +5541,14 @@ footer .copyrights h6{
        
         
       }
-      .sm-srv h2{
+      .sub-services h2{
         color: #fff;
         font-size: 1rem;
         padding-left: 11.5rem;
         padding-top: 1rem;
         margin-top: -0.3rem;
     }
-    .sm-srv h6{
+    .sub-services h6{
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -5560,7 +5560,7 @@ footer .copyrights h6{
         padding-right: 1rem;
         color: #fff;
     }
-      .sm-srv li {
+      .sub-services li {
         color: #fff;
         margin: 0 0 0.5rem 0;
         padding-left: 2.8rem;
@@ -5569,7 +5569,7 @@ footer .copyrights h6{
         counter-increment: my-awesome-counter;
         position: relative;
       }
-     .sm-srv a{
+     .sub-services a{
           background-color: #024375;
          
           border-radius: 0.75rem;
@@ -5579,18 +5579,18 @@ footer .copyrights h6{
           font-weight: 600;
           color: #125488;
       }
-      .sm-srv a:hover li{
+      .sub-services a:hover li{
     color: #ED6239;
     transition: ease 0.3s;
     
       }
-      .sm-srv a:hover{
+      .sub-services a:hover{
         transform: translateX(-20px);
     transition: ease-in 0.3s;
     
         
           }
-      .sm-srv li::before {
+      .sub-services li::before {
         content: counter(my-awesome-counter);
         color: #ED6239;
         font-size: 1.2rem;
@@ -5889,10 +5889,10 @@ footer .copyrights h6{
         top: 0;
         bottom: 0;
     }
-    .ngrb2{
+    .Small-logo{
         display: none;
     }
-    .ngrb{
+    .first-logo{
         margin-right: 5rem;
     }
     #head img{
@@ -6044,7 +6044,7 @@ align-items: center;
     bottom: 15px;
     right: 15px;
 }
-.sm-srv {
+.sub-services {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -6059,14 +6059,14 @@ align-items: center;
    
     
   }
-  .sm-srv h2{
+  .sub-services h2{
     color: #fff;
     font-size: 1rem;
     padding-left: 11.5rem;
     padding-top: 1rem;
     margin-top: -0.3rem;
 }
-.sm-srv h6{
+.sub-services h6{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -6078,7 +6078,7 @@ align-items: center;
     padding-right: 1rem;
     color: #fff;
 }
-  .sm-srv li {
+  .sub-services li {
     color: #fff;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
@@ -6087,7 +6087,7 @@ align-items: center;
     counter-increment: my-awesome-counter;
     position: relative;
   }
- .sm-srv a{
+ .sub-services a{
       background-color: #024375;
      
       border-radius: 0.75rem;
@@ -6097,18 +6097,18 @@ align-items: center;
       font-weight: 600;
       color: #125488;
   }
-  .sm-srv a:hover li{
+  .sub-services a:hover li{
 color: #ED6239;
 transition: ease 0.3s;
 
   }
-  .sm-srv a:hover{
+  .sub-services a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
 
     
       }
-  .sm-srv li::before {
+  .sub-services li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
     font-size: 1.2rem;
@@ -6415,11 +6415,11 @@ footer .copyrights h6{
         top: 0;
         bottom: 0;
     }
-    .ngrb{
+    .first-logo{
         margin-right: 5rem;
         
     }
-    .ngrb2{
+    .Small-logo{
         display: none;
     }
     #head img{
@@ -6532,7 +6532,7 @@ align-items: center;
     bottom: 15px;
     right: 15px;
 }
-.sm-srv {
+.sub-services {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -6547,14 +6547,14 @@ align-items: center;
    
     
   }
-  .sm-srv h2{
+  .sub-services h2{
     color: #fff;
     font-size: 1rem;
     padding-left: 11.5rem;
     padding-top: 1rem;
     margin-top: -0.3rem;
 }
-.sm-srv h6{
+.sub-services h6{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -6566,7 +6566,7 @@ align-items: center;
     padding-right: 1rem;
     color: #fff;
 }
-  .sm-srv li {
+  .sub-services li {
     color: #fff;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
@@ -6575,7 +6575,7 @@ align-items: center;
     counter-increment: my-awesome-counter;
     position: relative;
   }
- .sm-srv a{
+ .sub-services a{
       background-color: #024375;
      
       border-radius: 0.75rem;
@@ -6585,18 +6585,18 @@ align-items: center;
       font-weight: 600;
       color: #125488;
   }
-  .sm-srv a:hover li{
+  .sub-services a:hover li{
 color: #ED6239;
 transition: ease 0.3s;
 
   }
-  .sm-srv a:hover{
+  .sub-services a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
 
     
       }
-  .sm-srv li::before {
+  .sub-services li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
     font-size: 1.2rem;
@@ -6653,7 +6653,7 @@ transition: ease-in 0.3s;
     transform: translateX(55%) scale(1.1);
     transition: ease 0.3s;
 }
-#intro h2{
+#introduction h2{
     font-size: 1rem;
     padding: 0 50px;
 }
@@ -6937,12 +6937,12 @@ transition: ease-in 0.3s;
         top: 0;
         bottom: 0;
     }
-    .ngrb{
+    .first-logo{
         margin-left: 3.2rem;
         
         
     }
-    .ngrb2{
+    .Small-logo{
         display: none;
     }
     #head img{
@@ -7055,7 +7055,7 @@ align-items: center;
     bottom: 15px;
     right: 15px;
 }
-.sm-srv {
+.sub-services {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -7070,14 +7070,14 @@ align-items: center;
    
     
   }
-  .sm-srv h2{
+  .sub-services h2{
     color: #fff;
     font-size: 1rem;
     padding-left: 11.5rem;
     padding-top: 1rem;
     margin-top: -0.3rem;
 }
-.sm-srv h6{
+.sub-services h6{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -7089,7 +7089,7 @@ align-items: center;
     padding-right: 1rem;
     color: #fff;
 }
-  .sm-srv li {
+  .sub-services li {
     color: #fff;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
@@ -7098,7 +7098,7 @@ align-items: center;
     counter-increment: my-awesome-counter;
     position: relative;
   }
- .sm-srv a{
+ .sub-services a{
       background-color: #024375;
      
       border-radius: 0.75rem;
@@ -7108,18 +7108,18 @@ align-items: center;
       font-weight: 600;
       color: #125488;
   }
-  .sm-srv a:hover li{
+  .sub-services a:hover li{
 color: #ED6239;
 transition: ease 0.3s;
 
   }
-  .sm-srv a:hover{
+  .sub-services a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
 
     
       }
-  .sm-srv li::before {
+  .sub-services li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
     font-size: 1.2rem;
@@ -7176,7 +7176,7 @@ transition: ease-in 0.3s;
     transform: translateX(55%) scale(1.1);
     transition: ease 0.3s;
 }
-#intro h2{
+#introduction h2{
     font-size: 1rem;
     padding: 0 50px;
 }
@@ -7464,12 +7464,12 @@ transition: ease-in 0.3s;
         top: 0;
         bottom: 0;
     }
-    .ngrb{
+    .first-logo{
         margin-right: 1rem;
         margin-left: 4rem;
         
     }
-    .ngrb2{
+    .Small-logo{
         display: none;
     }
     #head img{
@@ -7572,7 +7572,7 @@ transition: ease-in 0.3s;
     transform: translateX(55%) scale(1.1);
     transition: ease 0.3s;
 }
-#intro h2{
+#introduction h2{
     font-size: 1rem;
     padding: 0 10px;
 }
@@ -7627,7 +7627,7 @@ align-items: center;
     bottom: 15px;
     right: 15px;
 }
-.sm-srv {
+.sub-services {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -7642,14 +7642,14 @@ align-items: center;
    
     
   }
-  .sm-srv h2{
+  .sub-services h2{
     color: #fff;
     font-size: 1rem;
     padding-left: 10rem;
     padding-top: 1rem;
     margin-top: -0.3rem;
 }
-.sm-srv h6{
+.sub-services h6{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -7661,7 +7661,7 @@ align-items: center;
     padding-right: 1rem;
     color: #fff;
 }
-  .sm-srv li {
+  .sub-services li {
     color: #fff;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
@@ -7670,7 +7670,7 @@ align-items: center;
     counter-increment: my-awesome-counter;
     position: relative;
   }
- .sm-srv a{
+ .sub-services a{
       background-color: #024375;
      
       border-radius: 0.75rem;
@@ -7680,18 +7680,18 @@ align-items: center;
       font-weight: 600;
       color: #125488;
   }
-  .sm-srv a:hover li{
+  .sub-services a:hover li{
 color: #ED6239;
 transition: ease 0.3s;
 
   }
-  .sm-srv a:hover{
+  .sub-services a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
 
     
       }
-  .sm-srv li::before {
+  .sub-services li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
     font-size: 1.2rem;
@@ -7992,7 +7992,7 @@ transition: ease-in 0.3s;
         top: 0;
         bottom: 0;
     }
-    .ngrb{
+    .first-logo{
         margin-left: 2rem;
         
     }
@@ -8106,7 +8106,7 @@ align-items: center;
     bottom: 15px;
     right: 15px;
 }
-.sm-srv {
+.sub-services {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -8121,14 +8121,14 @@ align-items: center;
    
     
   }
-  .sm-srv h2{
+  .sub-services h2{
     color: #fff;
     font-size: 1rem;
     padding-left: 11rem;
     padding-top: 1rem;
     margin-top: -0.3rem;
 }
-.sm-srv h6{
+.sub-services h6{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -8140,7 +8140,7 @@ align-items: center;
     padding-right: 1rem;
     color: #fff;
 }
-  .sm-srv li {
+  .sub-services li {
     color: #fff;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
@@ -8149,7 +8149,7 @@ align-items: center;
     counter-increment: my-awesome-counter;
     position: relative;
   }
- .sm-srv a{
+ .sub-services a{
       background-color: #024375;
      
       border-radius: 0.75rem;
@@ -8159,18 +8159,18 @@ align-items: center;
       font-weight: 600;
       color: #125488;
   }
-  .sm-srv a:hover li{
+  .sub-services a:hover li{
 color: #ED6239;
 transition: ease 0.3s;
 
   }
-  .sm-srv a:hover{
+  .sub-services a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
 
     
       }
-  .sm-srv li::before {
+  .sub-services li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
     font-size: 1.2rem;
@@ -8509,11 +8509,11 @@ transition: ease-in 0.3s;
     .socialIcons{
         display: none;
     }
-  .ngrb2{
+  .Small-logo{
       display: flex;
       margin-left: 8.9rem;
   }
-  .ngrb{
+  .first-logo{
       display: none;
   }
     
@@ -8623,7 +8623,7 @@ align-items: center;
     bottom: 15px;
     right: 15px;
 }
-.sm-srv {
+.sub-services {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -8638,14 +8638,14 @@ align-items: center;
    
     
   }
-  .sm-srv h2{
+  .sub-services h2{
     color: #fff;
     font-size: 1rem;
     padding-left: 7.5rem;
     padding-top: 1rem;
     margin-top: -0.3rem;
 }
-.sm-srv h6{
+.sub-services h6{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -8657,7 +8657,7 @@ align-items: center;
     padding-right: 1rem;
     color: #fff;
 }
-  .sm-srv li {
+  .sub-services li {
     color: #fff;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
@@ -8666,7 +8666,7 @@ align-items: center;
     counter-increment: my-awesome-counter;
     position: relative;
   }
- .sm-srv a{
+ .sub-services a{
       background-color: #024375;
      
       border-radius: 0.75rem;
@@ -8676,18 +8676,18 @@ align-items: center;
       font-weight: 600;
       color: #125488;
   }
-  .sm-srv a:hover li{
+  .sub-services a:hover li{
 color: #ED6239;
 transition: ease 0.3s;
 
   }
-  .sm-srv a:hover{
+  .sub-services a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
 
     
       }
-  .sm-srv li::before {
+  .sub-services li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
     font-size: 1.2rem;
@@ -8705,7 +8705,7 @@ transition: ease-in 0.3s;
     text-align: center;
     box-shadow: 1px 1px 0 #ED6239;
   }
-  #intro h2{
+  #introduction h2{
       padding-left: 1rem;
       padding-right: 1rem;
       padding-top: 2rem;
@@ -9036,11 +9036,11 @@ padding: 0.9375rem 0.9375rem;
     .socialIcons{
         display: none;
     }
-  .ngrb2{
+  .Small-logo{
       display: flex;
       margin-left: 6.9rem;
   }
-  .ngrb{
+  .first-logo{
       display: none;
   }
     
@@ -9151,7 +9151,7 @@ align-items: center;
     bottom: 15px;
     right: 15px;
 }
-.sm-srv {
+.sub-services {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -9166,14 +9166,14 @@ align-items: center;
    
     
   }
-  .sm-srv h2{
+  .sub-services h2{
     color: #fff;
     font-size: 1rem;
     padding-left: 7.5rem;
     padding-top: 1rem;
     margin-top: -0.3rem;
 }
-.sm-srv h6{
+.sub-services h6{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -9185,7 +9185,7 @@ align-items: center;
     padding-right: 1rem;
     color: #fff;
 }
-  .sm-srv li {
+  .sub-services li {
     color: #fff;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
@@ -9194,7 +9194,7 @@ align-items: center;
     counter-increment: my-awesome-counter;
     position: relative;
   }
- .sm-srv a{
+ .sub-services a{
       background-color: #024375;
      
       border-radius: 0.75rem;
@@ -9204,18 +9204,18 @@ align-items: center;
       font-weight: 600;
       color: #125488;
   }
-  .sm-srv a:hover li{
+  .sub-services a:hover li{
 color: #ED6239;
 transition: ease 0.3s;
 
   }
-  .sm-srv a:hover{
+  .sub-services a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
 
     
       }
-  .sm-srv li::before {
+  .sub-services li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
     font-size: 1.2rem;
@@ -9234,7 +9234,7 @@ transition: ease-in 0.3s;
     box-shadow: 1px 1px 0 #ED6239;
   }
   
-  #intro h2{
+  #introduction h2{
       padding-left: 1rem;
       padding-right: 1rem;
       padding-top: 2rem;
@@ -9593,7 +9593,7 @@ padding: 0.9375rem 0.9375rem;
         bottom: 15px;
         right: 15px;
     }
-    .sm-srv {
+    .sub-services {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -9608,14 +9608,14 @@ padding: 0.9375rem 0.9375rem;
        
         
       }
-      .sm-srv h2{
+      .sub-services h2{
         color: #fff;
         font-size: 1rem;
         padding-left: 5.2rem;
         padding-top: 1rem;
         margin-top: -0.3rem;
     }
-    .sm-srv h6{
+    .sub-services h6{
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -9627,7 +9627,7 @@ padding: 0.9375rem 0.9375rem;
         padding-right: 1rem;
         color: #fff;
     }
-      .sm-srv li {
+      .sub-services li {
         color: #fff;
         margin: 0 0 0.5rem 0;
         padding-left: 2.8rem;
@@ -9636,7 +9636,7 @@ padding: 0.9375rem 0.9375rem;
         counter-increment: my-awesome-counter;
         position: relative;
       }
-     .sm-srv a{
+     .sub-services a{
           background-color: #024375;
          
           border-radius: 0.75rem;
@@ -9646,18 +9646,18 @@ padding: 0.9375rem 0.9375rem;
           font-weight: 600;
           color: #125488;
       }
-      .sm-srv a:hover li{
+      .sub-services a:hover li{
     color: #ED6239;
     transition: ease 0.3s;
     
       }
-      .sm-srv a:hover{
+      .sub-services a:hover{
         transform: translateX(-20px);
     transition: ease-in 0.3s;
     
         
           }
-      .sm-srv li::before {
+      .sub-services li::before {
         content: counter(my-awesome-counter);
         color: #ED6239;
         font-size: 1.2rem;
@@ -9700,11 +9700,11 @@ padding: 0.9375rem 0.9375rem;
     .socialIcons{
         display: none;
     }
-  .ngrb2{
+  .Small-logo{
       display: flex;
       margin-left: 5rem;
   }
-  .ngrb{
+  .first-logo{
       display: none;
   }
     
@@ -9742,7 +9742,7 @@ padding: 0.9375rem 0.9375rem;
 #head .btn1{
     width: 8.25rem;
     color: #000;
-    height: 2.2rem;
+    height: 3.2rem;
     
     font-size:0.85rem;
     font-weight: 500;
@@ -9815,7 +9815,7 @@ align-items: center;
     bottom: 15px;
     right: 15px;
 }
-.sm-srv {
+.sub-services {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -9830,14 +9830,14 @@ align-items: center;
    
     
   }
-  .sm-srv h2{
+  .sub-services h2{
     color: #fff;
     font-size: 1rem;
     padding-left: 5.2rem;
     padding-top: 1rem;
     margin-top: -0.3rem;
 }
-.sm-srv h6{
+.sub-services h6{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -9849,7 +9849,7 @@ align-items: center;
     padding-right: 1rem;
     color: #fff;
 }
-  .sm-srv li {
+  .sub-services li {
     color: #fff;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
@@ -9858,7 +9858,7 @@ align-items: center;
     counter-increment: my-awesome-counter;
     position: relative;
   }
- .sm-srv a{
+ .sub-services a{
       background-color: #024375;
      
       border-radius: 0.75rem;
@@ -9868,18 +9868,18 @@ align-items: center;
       font-weight: 600;
       color: #125488;
   }
-  .sm-srv a:hover li{
+  .sub-services a:hover li{
 color: #ED6239;
 transition: ease 0.3s;
 
   }
-  .sm-srv a:hover{
+  .sub-services a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
 
     
       }
-  .sm-srv li::before {
+  .sub-services li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
     font-size: 1.2rem;
@@ -9898,7 +9898,7 @@ transition: ease-in 0.3s;
     box-shadow: 1px 1px 0 #ED6239;
   }
   
-  #intro h2{
+  #introduction h2{
       padding-left: 1rem;
       padding-right: 1rem;
       padding-top: 2rem;
@@ -9908,7 +9908,7 @@ transition: ease-in 0.3s;
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    margin: 2rem auto;
+    margin: 1rem auto;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -10260,7 +10260,7 @@ padding: 0.9375rem 0.9375rem;
         bottom: 15px;
         right: 15px;
     }
-    .sm-srv {
+    .sub-services {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -10275,14 +10275,14 @@ padding: 0.9375rem 0.9375rem;
        
         
       }
-      .sm-srv h2{
+      .sub-services h2{
         color: #fff;
         font-size: 1rem;
         padding-left: 5.2rem;
         padding-top: 1rem;
         margin-top: -0.3rem;
     }
-    .sm-srv h6{
+    .sub-services h6{
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -10294,7 +10294,7 @@ padding: 0.9375rem 0.9375rem;
         padding-right: 1rem;
         color: #fff;
     }
-      .sm-srv li {
+      .sub-services li {
         color: #fff;
         margin: 0 0 0.5rem 0;
         padding-left: 2.8rem;
@@ -10303,7 +10303,7 @@ padding: 0.9375rem 0.9375rem;
         counter-increment: my-awesome-counter;
         position: relative;
       }
-     .sm-srv a{
+     .sub-services a{
           background-color: #024375;
          
           border-radius: 0.75rem;
@@ -10313,18 +10313,18 @@ padding: 0.9375rem 0.9375rem;
           font-weight: 600;
           color: #125488;
       }
-      .sm-srv a:hover li{
+      .sub-services a:hover li{
     color: #ED6239;
     transition: ease 0.3s;
     
       }
-      .sm-srv a:hover{
+      .sub-services a:hover{
         transform: translateX(-20px);
     transition: ease-in 0.3s;
     
         
           }
-      .sm-srv li::before {
+      .sub-services li::before {
         content: counter(my-awesome-counter);
         color: #ED6239;
         font-size: 1.2rem;
@@ -10368,11 +10368,11 @@ padding: 0.9375rem 0.9375rem;
     .socialIcons{
         display: none;
     }
-  .ngrb2{
+  .Small-logo{
       display: flex;
       margin-left: 4.3rem;
   }
-  .ngrb{
+  .first-logo{
       display: none;
   }
     
@@ -10493,7 +10493,7 @@ align-items: center;
     bottom: 15px;
     right: 15px;
 }
-.sm-srv {
+.sub-services {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -10508,14 +10508,14 @@ align-items: center;
    
     
   }
-  .sm-srv h2{
+  .sub-services h2{
     color: #fff;
     font-size: 1rem;
     padding-left: 5.2rem;
     padding-top: 1rem;
     margin-top: -0.3rem;
 }
-.sm-srv h6{
+.sub-services h6{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -10527,7 +10527,7 @@ align-items: center;
     padding-right: 1rem;
     color: #fff;
 }
-  .sm-srv li {
+  .sub-services li {
     color: #fff;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
@@ -10536,7 +10536,7 @@ align-items: center;
     counter-increment: my-awesome-counter;
     position: relative;
   }
- .sm-srv a{
+ .sub-services a{
       background-color: #024375;
      
       border-radius: 0.75rem;
@@ -10546,18 +10546,18 @@ align-items: center;
       font-weight: 600;
       color: #125488;
   }
-  .sm-srv a:hover li{
+  .sub-services a:hover li{
 color: #ED6239;
 transition: ease 0.3s;
 
   }
-  .sm-srv a:hover{
+  .sub-services a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
 
     
       }
-  .sm-srv li::before {
+  .sub-services li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
     font-size: 1.2rem;
@@ -10576,7 +10576,7 @@ transition: ease-in 0.3s;
     box-shadow: 1px 1px 0 #ED6239;
   }
   
-  #intro h2{
+  #introduction h2{
       padding-left: 1rem;
       padding-right: 1rem;
       padding-top: 2rem;
@@ -10910,11 +10910,11 @@ padding: 0.9375rem 0.9375rem;
     .socialIcons{
         display: none;
     }
-  .ngrb2{
+  .Small-logo{
       display: flex;
       margin-left: 4.3rem;
   }
-  .ngrb{
+  .first-logo{
       display: none;
   }
     
@@ -11035,7 +11035,7 @@ align-items: center;
     bottom: 15px;
     right: 15px;
 }
-.sm-srv {
+.sub-services {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -11050,14 +11050,14 @@ align-items: center;
    
     
   }
-  .sm-srv h2{
+  .sub-services h2{
     color: #fff;
     font-size: 1rem;
     padding-left: 5.2rem;
     padding-top: 1rem;
     margin-top: -0.3rem;
 }
-.sm-srv h6{
+.sub-services h6{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -11069,7 +11069,7 @@ align-items: center;
     padding-right: 1rem;
     color: #fff;
 }
-  .sm-srv li {
+  .sub-services li {
     color: #fff;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
@@ -11078,7 +11078,7 @@ align-items: center;
     counter-increment: my-awesome-counter;
     position: relative;
   }
- .sm-srv a{
+ .sub-services a{
       background-color: #024375;
      
       border-radius: 0.75rem;
@@ -11088,18 +11088,18 @@ align-items: center;
       font-weight: 600;
       color: #125488;
   }
-  .sm-srv a:hover li{
+  .sub-services a:hover li{
 color: #ED6239;
 transition: ease 0.3s;
 
   }
-  .sm-srv a:hover{
+  .sub-services a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
 
     
       }
-  .sm-srv li::before {
+  .sub-services li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
     font-size: 1.2rem;
@@ -11118,7 +11118,7 @@ transition: ease-in 0.3s;
     box-shadow: 1px 1px 0 #ED6239;
   }
   
-  #intro h2{
+  #introduction h2{
       padding-left: 1rem;
       padding-right: 1rem;
       padding-top: 2rem;
@@ -11452,11 +11452,11 @@ padding: 0.9375rem 0.9375rem;
     .socialIcons{
         display: none;
     }
-  .ngrb2{
+  .Small-logo{
       display: flex;
       margin-left: 3.3rem;
   }
-  .ngrb{
+  .first-logo{
       display: none;
   }
     
@@ -11568,7 +11568,7 @@ align-items: center;
     bottom: 15px;
     right: 15px;
 }
-.sm-srv {
+.sub-services {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -11583,14 +11583,14 @@ align-items: center;
    
     
   }
-  .sm-srv h2{
+  .sub-services h2{
     color: #fff;
     font-size: 1rem;
     padding-left: 4.5rem;
     padding-top: 1rem;
     margin-top: -0.3rem;
 }
-.sm-srv h6{
+.sub-services h6{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -11602,7 +11602,7 @@ align-items: center;
     padding-right: 1rem;
     color: #fff;
 }
-  .sm-srv li {
+  .sub-services li {
     color: #fff;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
@@ -11611,7 +11611,7 @@ align-items: center;
     counter-increment: my-awesome-counter;
     position: relative;
   }
- .sm-srv a{
+ .sub-services a{
       background-color: #024375;
      
       border-radius: 0.75rem;
@@ -11621,18 +11621,18 @@ align-items: center;
       font-weight: 600;
       color: #125488;
   }
-  .sm-srv a:hover li{
+  .sub-services a:hover li{
 color: #ED6239;
 transition: ease 0.3s;
 
   }
-  .sm-srv a:hover{
+  .sub-services a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
 
     
       }
-  .sm-srv li::before {
+  .sub-services li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
     font-size: 1.2rem;
@@ -11651,7 +11651,7 @@ transition: ease-in 0.3s;
     box-shadow: 1px 1px 0 #ED6239;
   }
   
-  #intro h2{
+  #introduction h2{
       padding-left: 1rem;
       padding-right: 1rem;
       padding-top: 2rem;
@@ -11985,11 +11985,11 @@ padding: 0.9375rem 0.9375rem;
     .socialIcons{
         display: none;
     }
-  .ngrb2{
+  .Small-logo{
       display: flex;
       margin-left: 2.2rem;
   }
-  .ngrb{
+  .first-logo{
       display: none;
   }
     
@@ -12102,7 +12102,7 @@ align-items: center;
     bottom: 15px;
     right: 15px;
 }
-.sm-srv {
+.sub-services {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -12117,14 +12117,14 @@ align-items: center;
    
     
   }
-  .sm-srv h2{
+  .sub-services h2{
     color: #fff;
     font-size: 0.85rem;
     padding-left: 4.5rem;
     padding-top: 1rem;
     margin-top: -0.3rem;
 }
-.sm-srv h6{
+.sub-services h6{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -12136,7 +12136,7 @@ align-items: center;
     padding-right: 1rem;
     color: #fff;
 }
-  .sm-srv li {
+  .sub-services li {
     color: #fff;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
@@ -12145,7 +12145,7 @@ align-items: center;
     counter-increment: my-awesome-counter;
     position: relative;
   }
- .sm-srv a{
+ .sub-services a{
       background-color: #024375;
      
       border-radius: 0.75rem;
@@ -12155,18 +12155,18 @@ align-items: center;
       font-weight: 600;
       color: #125488;
   }
-  .sm-srv a:hover li{
+  .sub-services a:hover li{
 color: #ED6239;
 transition: ease 0.3s;
 
   }
-  .sm-srv a:hover{
+  .sub-services a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
 
     
       }
-  .sm-srv li::before {
+  .sub-services li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
     font-size: 1rem;
@@ -12185,7 +12185,7 @@ transition: ease-in 0.3s;
     box-shadow: 1px 1px 0 #ED6239;
   }
   
-  #intro h2{
+  #introduction h2{
       padding-left: 1rem;
       padding-right: 1rem;
       padding-top: 2rem;
@@ -12518,11 +12518,11 @@ padding: 0.9375rem 0.9375rem;
     .socialIcons{
         display: none;
     }
-  .ngrb2{
+  .Small-logo{
       display: flex;
       margin-left: 0.85rem;
   }
-  .ngrb{
+  .first-logo{
       display: none;
   }
     
@@ -12635,7 +12635,7 @@ align-items: center;
     bottom: 15px;
     right: 15px;
 }
-.sm-srv {
+.sub-services {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -12650,14 +12650,14 @@ align-items: center;
    
     
   }
-  .sm-srv h2{
+  .sub-services h2{
     color: #fff;
     font-size: 0.75rem;
     padding-left: 3.5rem;
     padding-top: 1rem;
     margin-top: -0.3rem;
 }
-.sm-srv h6{
+.sub-services h6{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -12669,7 +12669,7 @@ align-items: center;
     padding-right: 1rem;
     color: #fff;
 }
-  .sm-srv li {
+  .sub-services li {
     color: #fff;
     margin: 0 0 0.5rem 0;
     padding-left: 2.8rem;
@@ -12678,7 +12678,7 @@ align-items: center;
     counter-increment: my-awesome-counter;
     position: relative;
   }
- .sm-srv a{
+ .sub-services a{
       background-color: #024375;
      
       border-radius: 0.75rem;
@@ -12688,18 +12688,18 @@ align-items: center;
       font-weight: 600;
       color: #125488;
   }
-  .sm-srv a:hover li{
+  .sub-services a:hover li{
 color: #ED6239;
 transition: ease 0.3s;
 
   }
-  .sm-srv a:hover{
+  .sub-services a:hover{
     transform: translateX(-20px);
 transition: ease-in 0.3s;
 
     
       }
-  .sm-srv li::before {
+  .sub-services li::before {
     content: counter(my-awesome-counter);
     color: #ED6239;
     font-size: 1rem;
@@ -12718,7 +12718,7 @@ transition: ease-in 0.3s;
     box-shadow: 1px 1px 0 #ED6239;
   }
   
-  #intro h2{
+  #introduction h2{
       padding-left: 1rem;
       padding-right: 1rem;
       padding-top: 2rem;
