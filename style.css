@@ -485,7 +485,7 @@ margin-bottom: 2.1875rem;
 color: #FFF;
 padding: 0.9375rem 0.9375rem;
   }
-  #butns span{
+  #banner-btn span{
     margin-left: 10px;
 }
   #banner button{
@@ -573,14 +573,14 @@ padding: 0.9375rem 0.9375rem;
     line-height: 2;
     color: #023358;
   }
-  #butn{
+  #Feature-btn{
       display: flex;
       align-items: center;
       justify-content: center;
      
   }
  
- #butn button{
+ #Feature-btn button{
     margin-top: 1.875rem;
     background-color: #023358;
     color: #fff;
@@ -595,14 +595,14 @@ padding: 0.9375rem 0.9375rem;
     margin-bottom: 1.25rem;
     box-shadow: inset 0 0 0 0 #ED6239;;
  }
- #butn button:hover{
+ #Feature-btn button:hover{
     transition: ease-in 0.3s;
     cursor: pointer;
     border: 1px solid #023358;
     color:#fff;
     box-shadow: inset 13.75rem 0 0 0 #ED6239;;
  }
- #butn button:hover i{
+ #Feature-btn button:hover i{
     transform: translateX(55%) scale(1.1);
     transition: ease 0.3s;
  }
@@ -738,9 +738,7 @@ footer .copyrights h6{
    #menu2.active{
        display: flex;
    }
-   #menu2.close{
-       
-   }
+  
    #menu2 li{
        padding-bottom: 3rem;
        list-style: none;
@@ -1257,7 +1255,7 @@ footer .copyrights h6{
        color: #FFF;
        padding: 0.9375rem 0.9375rem;
          }
-         #butns .span{
+         #banner-btn .span{
              padding-left: 10px;
          }
          #banner button{
@@ -1344,13 +1342,13 @@ footer .copyrights h6{
           line-height: 2;
           color: #023358;
         }
-        #butn{
+        #Feature-btn{
             display: flex;
             align-items: center;
             justify-content: center;
            
         }
-       #butn button{
+       #Feature-btn button{
           margin-top: 1.875rem;
           background-color: #023358;
           color: #fff;
@@ -1365,14 +1363,14 @@ footer .copyrights h6{
           margin-bottom: 1.25rem;
           box-shadow: inset 0 0 0 0 #ED6239;;
        }
-       #butn button:hover{
+       #Feature-btn button:hover{
           transition: ease-in 0.3s;
           cursor: pointer;
           border: 1px solid #023358;
           color:#fff;
           box-shadow: inset 13.75rem 0 0 0 #ED6239;;
        }
-       #butn button:hover i{
+       #Feature-btn button:hover i{
           transform: translateX(55%) scale(1.1);
           transition: ease 0.3s;
        }
@@ -1927,7 +1925,7 @@ footer .copyrights h6{
        color: #FFF;
        padding: 0.9375rem 0.9375rem;
          }
-         #butns .span{
+         #banner-btn .span{
              padding-left: 10px;
          }
          #banner button{
@@ -2014,13 +2012,13 @@ footer .copyrights h6{
           line-height: 2;
           color: #023358;
         }
-        #butn{
+        #Feature-btn{
             display: flex;
             align-items: center;
             justify-content: center;
            
         }
-       #butn button{
+       #Feature-btn button{
           margin-top: 1.875rem;
           background-color: #023358;
           color: #fff;
@@ -2035,14 +2033,14 @@ footer .copyrights h6{
           margin-bottom: 1.25rem;
           box-shadow: inset 0 0 0 0 #ED6239;;
        }
-       #butn button:hover{
+       #Feature-btn button:hover{
           transition: ease-in 0.3s;
           cursor: pointer;
           border: 1px solid #023358;
           color:#fff;
           box-shadow: inset 13.75rem 0 0 0 #ED6239;;
        }
-       #butn button:hover i{
+       #Feature-btn button:hover i{
           transform: translateX(55%) scale(1.1);
           transition: ease 0.3s;
        }
@@ -2599,7 +2597,7 @@ font-size: 0.85rem;
    color: #FFF;
    padding: 0.9375rem 0.9375rem;
      }
-     #butns .span{
+     #banner-btn .span{
          padding-left: 10px;
      }
      #banner button{
@@ -2686,13 +2684,13 @@ font-size: 0.85rem;
       line-height: 2;
       color: #023358;
     }
-    #butn{
+    #Feature-btn{
         display: flex;
         align-items: center;
         justify-content: center;
        
     }
-   #butn button{
+   #Feature-btn button{
       margin-top: 1.875rem;
       background-color: #023358;
       color: #fff;
@@ -2707,14 +2705,14 @@ font-size: 0.85rem;
       margin-bottom: 1.25rem;
       box-shadow: inset 0 0 0 0 #ED6239;;
    }
-   #butn button:hover{
+   #Feature-btn button:hover{
       transition: ease-in 0.3s;
       cursor: pointer;
       border: 1px solid #023358;
       color:#fff;
       box-shadow: inset 13.75rem 0 0 0 #ED6239;;
    }
-   #butn button:hover i{
+   #Feature-btn button:hover i{
       transform: translateX(55%) scale(1.1);
       transition: ease 0.3s;
    }
@@ -3649,13 +3647,13 @@ font-size: 0.85rem;
       line-height: 2;
       color: #023358;
     }
-    #butn{
+    #Feature-btn{
         display: flex;
         align-items: center;
         justify-content: center;
        
     }
-   #butn button{
+   #Feature-btn button{
       margin-top: 1.875rem;
       background-color: #023358;
       color: #fff;
@@ -3670,14 +3668,14 @@ font-size: 0.85rem;
       margin-bottom: 1.25rem;
       box-shadow: inset 0 0 0 0 #ED6239;;
    }
-   #butn button:hover{
+   #Feature-btn button:hover{
       transition: ease-in 0.3s;
       cursor: pointer;
       border: 1px solid #023358;
       color:#fff;
       box-shadow: inset 13.75rem 0 0 0 #ED6239;;
    }
-   #butn button:hover i{
+   #Feature-btn button:hover i{
       transform: translateX(55%) scale(1.1);
       transition: ease 0.3s;
    }
@@ -4309,13 +4307,13 @@ font-size: 0.85rem;
       line-height: 2;
       color: #023358;
     }
-    #butn{
+    #Feature-btn{
         display: flex;
         align-items: center;
         justify-content: center;
        
     }
-   #butn button{
+   #Feature-btn button{
       margin-top: 1.875rem;
       background-color: #023358;
       color: #fff;
@@ -4330,14 +4328,14 @@ font-size: 0.85rem;
       margin-bottom: 1.25rem;
       box-shadow: inset 0 0 0 0 #ED6239;;
    }
-   #butn button:hover{
+   #Feature-btn button:hover{
       transition: ease-in 0.3s;
       cursor: pointer;
       border: 1px solid #023358;
       color:#fff;
       box-shadow: inset 13.75rem 0 0 0 #ED6239;;
    }
-   #butn button:hover i{
+   #Feature-btn button:hover i{
       transform: translateX(55%) scale(1.1);
       transition: ease 0.3s;
    }
@@ -4835,13 +4833,13 @@ font-size: 0.85rem;
       line-height: 2;
       color: #023358;
     }
-    #butn{
+    #Feature-btn{
         display: flex;
         align-items: center;
         justify-content: center;
        
     }
-   #butn button{
+   #Feature-btn button{
       margin-top: 1.875rem;
       background-color: #023358;
       color: #fff;
@@ -4856,14 +4854,14 @@ font-size: 0.85rem;
       margin-bottom: 1.25rem;
       box-shadow: inset 0 0 0 0 #ED6239;;
    }
-   #butn button:hover{
+   #Feature-btn button:hover{
       transition: ease-in 0.3s;
       cursor: pointer;
       border: 1px solid #023358;
       color:#fff;
       box-shadow: inset 13.75rem 0 0 0 #ED6239;;
    }
-   #butn button:hover i{
+   #Feature-btn button:hover i{
       transform: translateX(55%) scale(1.1);
       transition: ease 0.3s;
    }
@@ -5220,13 +5218,13 @@ padding: 0.9375rem 0.9375rem;
   line-height: 2;
   color: #023358;
 }
-#butn{
+#Feature-btn{
     display: flex;
     align-items: center;
     justify-content: center;
    
 }
-#butn button{
+#Feature-btn button{
   margin-top: 1.875rem;
   background-color: #023358;
   color: #fff;
@@ -5241,14 +5239,14 @@ padding: 0.9375rem 0.9375rem;
   margin-bottom: 1.25rem;
   box-shadow: inset 0 0 0 0 #ED6239;;
 }
-#butn button:hover{
+#Feature-btn button:hover{
   transition: ease-in 0.3s;
   cursor: pointer;
   border: 1px solid #023358;
   color:#fff;
   box-shadow: inset 13.75rem 0 0 0 #ED6239;;
 }
-#butn button:hover i{
+#Feature-btn button:hover i{
   transform: translateX(55%) scale(1.1);
   transition: ease 0.3s;
 }
@@ -5739,13 +5737,13 @@ footer .copyrights h6{
       line-height: 2;
       color: #023358;
     }
-    #butn{
+    #Feature-btn{
         display: flex;
         align-items: center;
         justify-content: center;
        
     }
-   #butn button{
+   #Feature-btn button{
       margin-top: 1.875rem;
       background-color: #023358;
       color: #fff;
@@ -5760,14 +5758,14 @@ footer .copyrights h6{
       margin-bottom: 1.25rem;
       box-shadow: inset 0 0 0 0 #ED6239;;
    }
-   #butn button:hover{
+   #Feature-btn button:hover{
       transition: ease-in 0.3s;
       cursor: pointer;
       border: 1px solid #023358;
       color:#fff;
       box-shadow: inset 13.75rem 0 0 0 #ED6239;;
    }
-   #butn button:hover i{
+   #Feature-btn button:hover i{
       transform: translateX(55%) scale(1.1);
       transition: ease 0.3s;
    }
@@ -6257,13 +6255,13 @@ padding: 0.9375rem 0.9375rem;
   line-height: 2;
   color: #023358;
 }
-#butn{
+#Feature-btn{
     display: flex;
     align-items: center;
     justify-content: center;
    
 }
-#butn button{
+#Feature-btn button{
   margin-top: 1.875rem;
   background-color: #023358;
   color: #fff;
@@ -6278,14 +6276,14 @@ padding: 0.9375rem 0.9375rem;
   margin-bottom: 1.25rem;
   box-shadow: inset 0 0 0 0 #ED6239;;
 }
-#butn button:hover{
+#Feature-btn button:hover{
   transition: ease-in 0.3s;
   cursor: pointer;
   border: 1px solid #023358;
   color:#fff;
   box-shadow: inset 13.75rem 0 0 0 #ED6239;;
 }
-#butn button:hover i{
+#Feature-btn button:hover i{
   transform: translateX(55%) scale(1.1);
   transition: ease 0.3s;
 }
@@ -6791,13 +6789,13 @@ transition: ease-in 0.3s;
       line-height: 2;
       color: #023358;
     }
-    #butn{
+    #Feature-btn{
         display: flex;
         align-items: center;
         justify-content: center;
        
     }
-   #butn button{
+   #Feature-btn button{
       margin-top: 1.875rem;
       background-color: #023358;
       color: #fff;
@@ -6812,14 +6810,14 @@ transition: ease-in 0.3s;
       margin-bottom: 1.25rem;
       box-shadow: inset 0 0 0 0 #ED6239;;
    }
-   #butn button:hover{
+   #Feature-btn button:hover{
       transition: ease-in 0.3s;
       cursor: pointer;
       border: 1px solid #023358;
       color:#fff;
       box-shadow: inset 10.75rem 0 0 0 #ED6239;;
    }
-   #butn button:hover i{
+   #Feature-btn button:hover i{
       transform: translateX(55%) scale(1.1);
       transition: ease 0.3s;
    }
@@ -7314,13 +7312,13 @@ transition: ease-in 0.3s;
       line-height: 2;
       color: #023358;
     }
-    #butn{
+    #Feature-btn{
         display: flex;
         align-items: center;
         justify-content: center;
        
     }
-   #butn button{
+   #Feature-btn button{
       margin-top: 1.875rem;
       background-color: #023358;
       color: #fff;
@@ -7335,14 +7333,14 @@ transition: ease-in 0.3s;
       margin-bottom: 1.25rem;
       box-shadow: inset 0 0 0 0 #ED6239;;
    }
-   #butn button:hover{
+   #Feature-btn button:hover{
       transition: ease-in 0.3s;
       cursor: pointer;
       border: 1px solid #023358;
       color:#fff;
       box-shadow: inset 10.75rem 0 0 0 #ED6239;;
    }
-   #butn button:hover i{
+   #Feature-btn button:hover i{
       transform: translateX(55%) scale(1.1);
       transition: ease 0.3s;
    }
@@ -7843,13 +7841,13 @@ transition: ease-in 0.3s;
       line-height: 2;
       color: #023358;
     }
-    #butn{
+    #Feature-btn{
         display: flex;
         align-items: center;
         justify-content: center;
        
     }
-   #butn button{
+   #Feature-btn button{
       margin-top: 1.875rem;
       background-color: #023358;
       color: #fff;
@@ -7864,14 +7862,14 @@ transition: ease-in 0.3s;
       margin-bottom: 1.25rem;
       box-shadow: inset 0 0 0 0 #ED6239;;
    }
-   #butn button:hover{
+   #Feature-btn button:hover{
       transition: ease-in 0.3s;
       cursor: pointer;
       border: 1px solid #023358;
       color:#fff;
       box-shadow: inset 10.75rem 0 0 0 #ED6239;;
    }
-   #butn button:hover i{
+   #Feature-btn button:hover i{
       transform: translateX(55%) scale(1.1);
       transition: ease 0.3s;
    }
@@ -8361,13 +8359,13 @@ transition: ease-in 0.3s;
       line-height: 2;
       color: #023358;
     }
-    #butn{
+    #Feature-btn{
         display: flex;
         align-items: center;
         justify-content: center;
        
     }
-   #butn button{
+   #Feature-btn button{
       margin-top: 1.875rem;
       background-color: #023358;
       color: #fff;
@@ -8382,14 +8380,14 @@ transition: ease-in 0.3s;
       margin-bottom: 1.25rem;
       box-shadow: inset 0 0 0 0 #ED6239;;
    }
-   #butn button:hover{
+   #Feature-btn button:hover{
       transition: ease-in 0.3s;
       cursor: pointer;
       border: 1px solid #023358;
       color:#fff;
       box-shadow: inset 10.75rem 0 0 0 #ED6239;;
    }
-   #butn button:hover i{
+   #Feature-btn button:hover i{
       transform: translateX(55%) scale(1.1);
       transition: ease 0.3s;
    }
@@ -8886,13 +8884,13 @@ padding: 0.9375rem 0.9375rem;
       line-height: 2;
       color: #023358;
     }
-    #butn{
+    #Feature-btn{
         display: flex;
         align-items: center;
         justify-content: center;
        
     }
-   #butn button{
+   #Feature-btn button{
       margin-top: 1.875rem;
       background-color: #023358;
       color: #fff;
@@ -8907,14 +8905,14 @@ padding: 0.9375rem 0.9375rem;
       margin-bottom: 1.25rem;
       box-shadow: inset 0 0 0 0 #ED6239;;
    }
-   #butn button:hover{
+   #Feature-btn button:hover{
       transition: ease-in 0.3s;
       cursor: pointer;
       border: 1px solid #023358;
       color:#fff;
       box-shadow: inset 10.75rem 0 0 0 #ED6239;;
    }
-   #butn button:hover i{
+   #Feature-btn button:hover i{
       transform: translateX(55%) scale(1.1);
       transition: ease 0.3s;
    }
@@ -9415,13 +9413,13 @@ padding: 0.9375rem 0.9375rem;
       line-height: 2;
       color: #023358;
     }
-    #butn{
+    #Feature-btn{
         display: flex;
         align-items: center;
         justify-content: center;
        
     }
-   #butn button{
+   #Feature-btn button{
       margin-top: 1.875rem;
       background-color: #023358;
       color: #fff;
@@ -9436,14 +9434,14 @@ padding: 0.9375rem 0.9375rem;
       margin-bottom: 1.25rem;
       box-shadow: inset 0 0 0 0 #ED6239;;
    }
-   #butn button:hover{
+   #Feature-btn button:hover{
       transition: ease-in 0.3s;
       cursor: pointer;
       border: 1px solid #023358;
       color:#023358;
       box-shadow: inset 10.75rem 0 0 0 #ED6239;;
    }
-   #butn button:hover i{
+   #Feature-btn button:hover i{
       transform: translateX(55%) scale(1.1);
       transition: ease 0.3s;
    }
@@ -10079,16 +10077,16 @@ padding: 0.9375rem 0.9375rem;
       line-height: 2;
       color: #023358;
     }
-    #butn{
+    #Feature-btn{
         display: flex;
         align-items: center;
         justify-content: center;
        
     }
-    #butn i{
+    #Feature-btn i{
         margin-left: 0.2rem;
     }
-   #butn button{
+   #Feature-btn button{
       margin-top: 1.875rem;
       background-color: #023358;
       color: #fff;
@@ -10103,14 +10101,14 @@ padding: 0.9375rem 0.9375rem;
       margin-bottom: 1.25rem;
       box-shadow: inset 0 0 0 0 #ED6239;;
    }
-   #butn button:hover{
+   #Feature-btn button:hover{
       transition: ease-in 0.3s;
       cursor: pointer;
       border: 1px solid #023358;
       color:#fff;
       box-shadow: inset 10.75rem 0 0 0 #ED6239;;
    }
-   #butn button:hover i{
+   #Feature-btn button:hover i{
       transform: translateX(55%) scale(1.1);
       transition: ease 0.3s;
    }
@@ -10758,16 +10756,16 @@ padding: 0.9375rem 0.9375rem;
       line-height: 2;
       color: #023358;
     }
-    #butn{
+    #Feature-btn{
         display: flex;
         align-items: center;
         justify-content: center;
        
     }
-    #butn i{
+    #Feature-btn i{
         margin-left: 0.2rem;
     }
-   #butn button{
+   #Feature-btn button{
       margin-top: 1.875rem;
       background-color: #023358;
       color: #fff;
@@ -10782,14 +10780,14 @@ padding: 0.9375rem 0.9375rem;
       margin-bottom: 1.25rem;
       box-shadow: inset 0 0 0 0 #ED6239;;
    }
-   #butn button:hover{
+   #Feature-btn button:hover{
       transition: ease-in 0.3s;
       cursor: pointer;
       border: 1px solid #023358;
       color:#fff;
       box-shadow: inset 10.75rem 0 0 0 #ED6239;;
    }
-   #butn button:hover i{
+   #Feature-btn button:hover i{
       transform: translateX(55%) scale(1.1);
       transition: ease 0.3s;
    }
@@ -11300,16 +11298,16 @@ padding: 0.9375rem 0.9375rem;
       line-height: 2;
       color: #023358;
     }
-    #butn{
+    #Feature-btn{
         display: flex;
         align-items: center;
         justify-content: center;
        
     }
-    #butn i{
+    #Feature-btn i{
         margin-left: 0.2rem;
     }
-   #butn button{
+   #Feature-btn button{
       margin-top: 1.875rem;
       background-color: #023358;
       color: #fff;
@@ -11324,14 +11322,14 @@ padding: 0.9375rem 0.9375rem;
       margin-bottom: 1.25rem;
       box-shadow: inset 0 0 0 0 #ED6239;;
    }
-   #butn button:hover{
+   #Feature-btn button:hover{
       transition: ease-in 0.3s;
       cursor: pointer;
       border: 1px solid #023358;
       color:#fff;
       box-shadow: inset 10.75rem 0 0 0 #ED6239;;
    }
-   #butn button:hover i{
+   #Feature-btn button:hover i{
       transform: translateX(55%) scale(1.1);
       transition: ease 0.3s;
    }
@@ -11833,16 +11831,16 @@ padding: 0.9375rem 0.9375rem;
       line-height: 2;
       color: #023358;
     }
-    #butn{
+    #Feature-btn{
         display: flex;
         align-items: center;
         justify-content: center;
        
     }
-    #butn i{
+    #Feature-btn i{
         margin-left: 0.2rem;
     }
-   #butn button{
+   #Feature-btn button{
       margin-top: 1.875rem;
       background-color: #023358;
       color: #fff;
@@ -11857,14 +11855,14 @@ padding: 0.9375rem 0.9375rem;
       margin-bottom: 1.25rem;
       box-shadow: inset 0 0 0 0 #ED6239;;
    }
-   #butn button:hover{
+   #Feature-btn button:hover{
       transition: ease-in 0.3s;
       cursor: pointer;
       border: 1px solid #023358;
       color:#fff;
       box-shadow: inset 10.75rem 0 0 0 #ED6239;;
    }
-   #butn button:hover i{
+   #Feature-btn button:hover i{
       transform: translateX(55%) scale(1.1);
       transition: ease 0.3s;
    }
@@ -12366,16 +12364,16 @@ padding: 0.9375rem 0.9375rem;
       line-height: 2;
       color: #023358;
     }
-    #butn{
+    #Feature-btn{
         display: flex;
         align-items: center;
         justify-content: center;
        
     }
-    #butn i{
+    #Feature-btn i{
         margin-left: 0.2rem;
     }
-   #butn button{
+   #Feature-btn button{
       margin-top: 1.875rem;
       background-color: #023358;
       color: #fff;
@@ -12390,14 +12388,14 @@ padding: 0.9375rem 0.9375rem;
       margin-bottom: 1.25rem;
       box-shadow: inset 0 0 0 0 #ED6239;;
    }
-   #butn button:hover{
+   #Feature-btn button:hover{
       transition: ease-in 0.3s;
       cursor: pointer;
       border: 1px solid #023358;
       color:#fff;
       box-shadow: inset 10.75rem 0 0 0 #ED6239;;
    }
-   #butn button:hover i{
+   #Feature-btn button:hover i{
       transform: translateX(55%) scale(1.1);
       transition: ease 0.3s;
    }
@@ -12899,16 +12897,16 @@ padding: 0.9375rem 0.9375rem;
       line-height: 2;
       color: #023358;
     }
-    #butn{
+    #Feature-btn{
         display: flex;
         align-items: center;
         justify-content: center;
        
     }
-    #butn i{
+    #Feature-btn i{
         margin-left: 0.2rem;
     }
-   #butn button{
+   #Feature-btn button{
       margin-top: 1.875rem;
       background-color: #023358;
       color: #fff;
@@ -12923,14 +12921,14 @@ padding: 0.9375rem 0.9375rem;
       margin-bottom: 1.25rem;
       box-shadow: inset 0 0 0 0 #ED6239;;
    }
-   #butn button:hover{
+   #Feature-btn button:hover{
       transition: ease-in 0.3s;
       cursor: pointer;
       border: 1px solid #023358;
       color:#fff;
       box-shadow: inset 10.75rem 0 0 0 #ED6239;;
    }
-   #butn button:hover i{
+   #Feature-btn button:hover i{
       transform: translateX(55%) scale(1.1);
       transition: ease 0.3s;
    }
