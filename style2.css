@@ -9496,10 +9496,10 @@ width: 100%;
 padding: 3.5rem 3rem;
 box-shadow: 5px 7px 5px -2px rgba(0,0,0,0.58);
 }
-.chat-with-us:hover {
+.chat-with-us:hover{
 cursor: pointer;
 }
-.chat-with-us:hover i{
+.chat-with-us:active i{
 transition: ease 0.4s;
 transform: scale(1.5);   
 }
