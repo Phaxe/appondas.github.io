@@ -19,6 +19,8 @@
 }
 #head{
     max-width: 100%;
+    margin-bottom: 5rem;
+    
 }
 .vdiv{
     z-index: 100;
@@ -85,7 +87,6 @@ video{
 }
 #navi{
     position: relative;
-    
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -716,10 +717,6 @@ footer .copyrights h6{
     transform: translateX(50%);
     font-size: 3rem;
     z-index: 888;
-    
-    
-    
-    
 }
 #menu2{
     display: none;
@@ -757,6 +754,10 @@ footer .copyrights h6{
        margin-left: -100rem;
        padding-top: 1rem;
    }
+
+   
+
+
 .socialIcons{
     position: fixed;
     top: 50%;

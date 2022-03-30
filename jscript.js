@@ -11,3 +11,7 @@ if (close){
         menu2.classList.remove('active');
     })
 }
+
+document.getElementById("mybutton").onclick = function () {
+    location.href = "http://127.0.0.1:5500/GetinTouch.html";
+};
