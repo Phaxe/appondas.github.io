@@ -9367,6 +9367,15 @@ grid-template-columns: repeat(1,1fr);
 gap: 60px 100px;
 margin-bottom: 2rem;
 }
+.input-box input{ 
+    position: relative;
+    text-align: start;
+    padding: 15px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #b8b6b6;
+    width: 100%;
+   }
 
 ::placeholder{
  position: absolute;
@@ -9374,14 +9383,7 @@ margin-bottom: 2rem;
  font-size: 0.75rem;
 }
 
-.input-box input{ 
- text-align: start;
- padding: 15px;
- outline: 0;
- border-width: 0 0 2px;
- border-color: #b8b6b6;
- width: 100%;
-}
+
 
 
 #our-serv {
