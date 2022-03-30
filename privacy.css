@@ -11,11 +11,11 @@
 }
 
 .sectionp{
-    padding: 0rem 2rem;
+    padding: 0rem 10rem;
 }
 .marginm{
-    margin-top: 3.75rem;
-    margin-left: 11.25rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 #head{
     max-width: 100%;
@@ -233,8 +233,167 @@
         border: 1px solid transparent;
         border-radius: 25px;
     }
+    
+    .tittle{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10rem;
+        margin-top: 10rem;
+    }
+    .tittle h1{
+        font-size: 3rem;
+        font-weight: 550;
+    }
+    .effect{
+        justify-content: center;
+        align-items: center;
+        text-align: start; 
+    }
+    .effect h6{
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .effect p{
+        line-height: 1.8;
+        margin-bottom: 1.5rem;
+    }
+    .definitions{
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+    }
+    .definitions h2{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .definitions h3{
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .definitions h6{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1.5rem;
+    }
+    .types-of-data{
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+    }
+    .types-of-data h2{
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .types-of-data h3{
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .types-of-data h6{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1.5rem;
+        line-height: 1.5;
+    }
+    .types-of-data li{
+        font-size: 1.2rem;
+        margin-left: 1rem;
+        line-height: 3;
+        font-weight: 400;
+    }
+    .cookies{
+        justify-content: center;
+        align-items: center;
+        text-align: start; 
+    }
+    .cookies h2{
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .cookies h3{
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .cookies h6{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1.5rem;
+        line-height: 2;
+    }
+    .cookies li{
+        font-size: 1rem;
+        margin-left: 1rem;
+        line-height: 3;
+        font-weight: 400;
+    }
+    .data-use h3{
+        margin-top: 3rem;
 
-
+    }
+    .data-use h6{
+        margin-top: -0.5rem;
+    }
+    .data-transfer{
+        justify-content: center;
+        align-items: center;
+        text-align: start; 
+    }
+    .data-transfer h3{
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+        margin-top: 2rem;
+    }
+    .data-transfer h6{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1.5rem;
+        line-height: 2;  
+    }
+    .data-disc{
+        justify-content: center;
+        align-items: center;
+        text-align: start; 
+    }
+    .data-disc h2{
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .data-disc h3{
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+        margin-top: 2rem;
+    }
+    .data-disc h6{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1.5rem;
+        line-height: 2;
+    }
+    .data-disc li{
+        font-size: 1rem;
+        margin-left: 1rem;
+        line-height: 3;
+        font-weight: 400;  
+    }
+    .security{
+        justify-content: center;
+        align-items: center;
+        text-align: start; 
+    }
+    .security h3{
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+        margin-top: 2rem;
+    }
+    .security h6{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1.5rem;
+        line-height: 2;
+    }
 
 
 
