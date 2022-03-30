@@ -288,7 +288,8 @@
      font-size: 1rem;
  }
  
- .input-box input{ 
+ .input-box input{
+    position: relative; 
      text-align: start;
      padding: 15px;
      outline: 0;
@@ -894,7 +895,8 @@ footer .copyrights h6{
          font-size: 1rem;
      }
      
-     .input-box input{ 
+     .input-box input{
+        position: relative; 
          text-align: start;
          padding: 15px;
          outline: 0;
@@ -1492,7 +1494,8 @@ footer .copyrights h6{
          font-size: 1rem;
      }
      
-     .input-box input{ 
+     .input-box input{
+        position: relative; 
          text-align: start;
          padding: 15px;
          outline: 0;
@@ -2103,7 +2106,8 @@ footer .copyrights h6{
          font-size: 1rem;
      }
      
-     .input-box input{ 
+     .input-box input{
+        position: relative; 
          text-align: start;
          padding: 15px;
          outline: 0;
@@ -2694,7 +2698,8 @@ footer .copyrights h6{
          font-size: 1rem;
      }
      
-     .input-box input{ 
+     .input-box input{
+        position: relative; 
          text-align: start;
          padding: 15px;
          outline: 0;
@@ -3293,7 +3298,8 @@ font-size: 0.85rem;
          font-size: 1rem;
      }
      
-     .input-box input{ 
+     .input-box input{
+        position: relative; 
          text-align: start;
          padding: 15px;
          outline: 0;
@@ -3850,7 +3856,8 @@ font-size: 0.85rem;
          font-size: 1rem;
      }
      
-     .input-box input{ 
+     .input-box input{
+        position: relative; 
          text-align: start;
          padding: 15px;
          outline: 0;
@@ -4400,7 +4407,8 @@ font-size: 0.85rem;
          font-size: 1rem;
      }
      
-     .input-box input{ 
+     .input-box input{
+        position: relative; 
          text-align: start;
          padding: 15px;
          outline: 0;
@@ -5172,7 +5180,8 @@ font-size: 0.85rem;
          font-size: 1rem;
      }
      
-     .input-box input{ 
+     .input-box input{
+        position: relative; 
          text-align: start;
          padding: 15px;
          outline: 0;
@@ -5726,7 +5735,8 @@ font-size: 0.85rem;
          font-size: 0.75rem;
      }
      
-     .input-box input{ 
+     .input-box input{
+         position: relative; 
          text-align: start;
          padding: 15px;
          outline: 0;
@@ -6305,7 +6315,8 @@ margin-bottom: 2rem;
  font-size: 0.75rem;
 }
 
-.input-box input{ 
+.input-box input{
+ position: relative; 
  text-align: start;
  padding: 15px;
  outline: 0;
@@ -6741,6 +6752,7 @@ margin-bottom: 2rem;
 }
 
 .input-box input{ 
+ position: relative;
  text-align: start;
  padding: 15px;
  outline: 0;
@@ -7182,6 +7194,7 @@ margin-bottom: 2rem;
 }
 
 .input-box input{ 
+ position: relative;
  text-align: start;
  padding: 15px;
  outline: 0;
@@ -7622,6 +7635,7 @@ margin-bottom: 2rem;
 }
 
 .input-box input{ 
+ position: relative;
  text-align: start;
  padding: 15px;
  outline: 0;
@@ -8062,7 +8076,8 @@ margin-bottom: 2rem;
  font-size: 0.75rem;
 }
 
-.input-box input{ 
+.input-box input{
+ position: relative; 
  text-align: start;
  padding: 15px;
  outline: 0;
@@ -8499,6 +8514,7 @@ margin-bottom: 2rem;
 }
 
 .input-box input{ 
+ position: relative;
  text-align: start;
  padding: 15px;
  outline: 0;
@@ -8937,6 +8953,7 @@ margin-bottom: 2rem;
 }
 
 .input-box input{ 
+ position: relative;
  text-align: start;
  padding: 15px;
  outline: 0;
@@ -9361,7 +9378,6 @@ text-align: center;
 }
 .information{
 margin-left: 1rem;
-
 display: grid;
 grid-template-columns: repeat(1,1fr);
 gap: 60px 100px;
@@ -9818,7 +9834,8 @@ margin-bottom: 2rem;
  font-size: 0.75rem;
 }
 
-.input-box input{ 
+.input-box input{
+    position: relative; 
  text-align: start;
  padding: 15px;
  outline: 0;
