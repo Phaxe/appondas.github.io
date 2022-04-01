@@ -1,0 +1,80 @@
+  .digital {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    overflow: hidden;
+    }
+  .digital h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--color-primary);
+    margin: 0 0 30px;
+    text-align: center;
+  }
+  .digital .my-p {
+    letter-spacing: 2px;
+    color: var(--color-light);
+    margin: 0 0 60px;
+    text-align: center;
+  }
+  .digital .digital-box {
+    width: calc(100% / 3);
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .digital .digital-box h4{
+    color: var(--color-white);
+  }
+  .digital-box .icon-st{
+    font-size: 52px;
+    color: var(--color-primary);
+  }
+
+  .digital button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+  @media (max-width: 991px) {
+    
+    
+    .digital .digital-box {
+      width: calc(100% / 2);
+    }
+  }
+  @media (max-width: 575px) {
+    .digital .digital-box {
+      width: 100%;
+    }
+  }
+  .digital .digital-box img {
+    max-width: 96px;
+  }
+  .digital .digital-box h4 {
+    font-size: 22px;
+    margin: 15px 0 40px;
+    position: relative;
+  }
+  .digital .digital-box h4:before {
+    content: '';
+    width: 40px;
+    height: 4px;
+    background-color: var(--color-primary);
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    bottom: -22px;
+  }
+  .digital .digital-box p {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.7;
+    color: var(--color-light);
+  }
+  /* End digital */

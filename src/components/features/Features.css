@@ -1,0 +1,125 @@
+/* Start features */
+.features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--color-white);
+  
+  }
+
+  .features .container .content {
+      margin-bottom: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+.features .container h2 {
+    color: var(--color-primary);
+    letter-spacing: 2px;
+}
+.features .container p {
+    color: var(--color-bg);
+}
+@media (max-width: 991px){
+    .features .container .tablet{
+        text-align: center;
+    }
+  }
+  
+  .features .features-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px , 1fr));
+    grid-gap: 30px;
+    margin-top: 50px;
+  }
+  @media (max-width:767px){
+    .features .features-content{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .features .features-content .feat{
+  display: flex;
+  margin-bottom: 40px;
+}
+
+  
+  @media (max-width: 767px){
+    .features .features-content .feat{
+        flex-direction: column;
+        text-align: center;
+    }
+  }
+  
+  .features  .feat .icon{
+    color: var(--color-primary);
+    flex-basis: 60px;
+    font-size: 32px;
+  }
+  
+  @media (max-width:767px){
+    .features  .feat .icon{
+        margin: 0 auto;
+    }
+  }
+
+  .features .features-content .feat .text{
+    flex:1;
+  }
+  
+  .features .features-content .feat .text h3{
+    margin: 0px 0px 20px;
+    color: var(--color-primary);
+  }
+  
+  .features .features-content .feat .text p{
+    color: var(--color-bg);
+    font-weight: 500;
+    line-height: 1.6;
+  }
+  
+  .features .features-content  .image{
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  }
+  
+  .features .features-content .image::before{
+    content: "";
+    background-color: var(--color-white);
+    width: 100px;
+    height: calc(100% + 100px);
+    top: -50px;
+    position: absolute;
+    right: 0px;
+    z-index: 0;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+  
+  .features .features-content .image img{
+    width: 320px;
+    opacity: 0.5;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.features a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+  
+  @media (max-width: 1199px){
+    .image-column{
+    display: none;
+    }
+  }
+  /* End features */

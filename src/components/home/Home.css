@@ -1,0 +1,96 @@
+.video-section{
+    overflow-x:hidden ;
+    height: 100vh;
+  }
+  
+  
+  video{
+    position:absolute;
+    object-fit: cover;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    margin: auto;
+  }
+
+  .go-down{
+    bottom: 0px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+.icon-arrow{
+  font-size: 22px;
+  color: var(--color-primary);
+}
+  .go-down .icon-arrow{
+    animation: bouncing 1.5s infinite;
+    -webkit-animation: bouncing 1.5s infinite;
+}
+  
+  @media (max-width: 767px){
+  video{
+    width: auto;
+    height: auto;
+  }
+  }
+  
+  .video-section .video-content {
+    position: relative;
+    top: 50%;
+    left: 12%;
+  }
+  .video-section .video-content  h2 {
+  margin-bottom:20px;
+  font-size: 40px;
+  color: var(--color-white);
+  }
+  .video-section .video-content  h2 > a{
+  border-color: var(--color-primary);
+  }
+  
+  @media (max-width: 767px){
+    .video-section .video-content{
+      margin-right: 0 auto;
+    }
+    .video-section .video-content  h2 {
+      font-size: 19px;
+      margin-bottom: 15px;
+      
+    }
+  }
+
+  @keyframes bouncing{
+    0%, 
+    10%, 
+    20%, 
+    50%, 
+    80%, 
+    100% {
+      transform: translateY(0);
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -o-transform: translateY(0);
+  }
+    40%,
+    60%{
+      transform: translateY(-15px);
+      -webkit-transform: translateY(-15px);
+      -moz-transform: translateY(-15px);
+      -ms-transform: translateY(-15px);
+      -o-transform: translateY(-15px);
+  }
+  }

@@ -1,0 +1,127 @@
+  /* Float three columns side by side */
+  .column {
+    float: left;
+    width: 30%;
+    padding: 1.5%;
+  }
+  
+  .row {
+    padding-top: 100px;
+    margin: 0 -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 767px) {
+    .column {
+      width: 80%;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 30px;
+    text-align: center;
+    background-color: var(--color-bg);
+    color: white;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.card:hover{
+    background-color:var(--color-bg-variant) ;
+    border: 1px solid var(--color-primary);
+}
+
+.card .icon {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card h3  {
+    margin-bottom: 10px;
+}
+
+
+.alliance .images{
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.alliance  .sp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  color: var(--color-primary);
+  letter-spacing: 3px;
+  margin: 0 auto;
+}
+
+
+.alliance .images > img{
+  width: 120px;
+}
+
+.alliance .images .firstfour{
+  width: 70px;
+}
+
+.alliance .images > img:hover{
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: s;
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: s;
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: s;
+    transition: all 200ms ease-in;
+    transform: scale(2,2);
+}
+
+@media (max-width: 767px) {
+  .alliance .images {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+}
+
+@media (max-width:991px) {
+  .alliance .images {
+    display: flex;
+    flex-wrap:wrap ;
+    width: 100%;
+  }
+  
+}

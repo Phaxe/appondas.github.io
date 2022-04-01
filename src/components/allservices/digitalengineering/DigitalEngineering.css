@@ -1,0 +1,128 @@
+.digital {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    overflow: hidden;
+    }
+.digital h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--color-primary);
+    margin: 0 0 30px;
+    text-align: center;
+    }
+    .digital .my-p {
+    letter-spacing: 2px;
+    color: var(--color-light);
+    margin: 0 0 60px;
+    text-align: center;
+    }
+    .digital .digital-box-eng {
+    width: calc(100% / 4);
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+    }
+
+    .digital .digital-box-eng h4{
+    color: var(--color-white);
+    }
+
+    .icon-en{
+        color: var(--color-primary);
+        font-size: 52px;
+    }
+    .digital .digital-box-eng button{
+        margin-bottom: 30px;
+    }
+    .digital-box-eng .tech{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 4px;
+        margin-bottom: 10px;
+    }
+    .digital-box-eng .tech .icon-tech{
+        margin: 5px;
+        font-size: 22px;
+        color: var(--color-primary);
+        
+    }
+
+    .digital .container .start-project{
+        text-align: center;
+        margin-bottom: 15px;
+        color: var(--color-white);
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .slide-right {
+        animation: 3s slide-right;
+        transition: 3s;
+        -webkit-transition: 3s;
+        -moz-transition: 3s;
+        -ms-transition: 3s;
+        -o-transition: 3s;
+    }
+
+
+    @media (max-width: 991px) {
+
+
+    .digital .digital-box-eng {
+    width: calc(100% / 2);
+    }
+    }
+    @media (max-width: 575px) {
+    .digital .digital-box-eng {
+    width: 100%;
+    }
+    }
+    .digital .digital-box-eng img {
+    max-width: 96px;
+    }
+    .digital .digital-box-eng h4 {
+    font-size: 22px;
+    margin: 15px 0 40px;
+    position: relative;
+    }
+    .digital .digital-box-eng h4:before {
+    content: '';
+    width: 40px;
+    height: 4px;
+    background-color: var(--color-primary);
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    bottom: -22px;
+    }
+    
+    .digital .digital-box-eng p {
+    width: 80%;
+    margin: 10px auto;
+    line-height: 1.7;
+    color: var(--color-light);
+    }
+
+    .upper{
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    /* End digital */
+
+    /* ---------- Animation -----------*/
+/***** Slide Right *****/
+
+  @keyframes slide-right {
+    from {
+      margin-left: -100%;
+      
+    }
+    to {
+      margin-left: 0%;
+      opacity: 1;
+    }
+  }
