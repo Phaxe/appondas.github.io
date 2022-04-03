@@ -17,21 +17,28 @@ const Home = () => {
             <div  className="card-wrap">
                 <a href="javascript:void(0)">
                 <li></li>
-                <h2>Digital Experiences</h2>
+                <h2>Web Site development</h2>
                 <h6>text ever since the 1500s, it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </h6>
                 </a>
             </div>
             <div className="card-wrap">
                 <a href="javascript:void(0)">
                 <li></li>
-                <h2>Digital Transformation</h2>
+                <h2>Web App development</h2>
                 <h6>text ever since the 1500s, it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </h6>
                 </a>
             </div>
             <div className="card-wrap">
                 <a href="javascript:void(0)">
                 <li></li>
-                <h2>Data Analytics & AI</h2>
+                <h2>Data Analytics</h2>
+                <h6>text ever since the 1500s, it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </h6>
+                </a>
+            </div>
+            <div className="card-wrap">
+                <a href="javascript:void(0)">
+                <li></li>
+                <h2>Search Engine Optimization</h2>
                 <h6>text ever since the 1500s, it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </h6>
                 </a>
             </div>

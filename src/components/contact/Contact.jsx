@@ -70,16 +70,17 @@ const Contact = () => {
           <h6>By clicking submit button, you agree to our <span>privacy policy.</span></h6>
         </div>
 </div>
-<section id="contact">
+ </section>
+ <section id="contact">
     <div className="chat-with-us">
         <i className="fa-solid fa-comment-dots"></i>
         <h3>Chat with us</h3>
-        <p>Chat live with one of our support <br /> specialists</p>
+        <p>Chat live with one of our support specialists</p>
     </div> 
     <div className="ask-comu">
         <i className="fa-solid fa-users"></i>
         <h3>Ask the Community</h3>
-        <p>Explore our community forums and communicate with other users</p>
+        <p>Explore our community forums and communicate with other</p>
     </div> 
     <div className="support">
         <i className="fa-solid fa-circle-info"></i>
@@ -92,7 +93,6 @@ const Contact = () => {
         <p>Call us Mon - Fri during business hours 08:00-18:00 CET</p>
     </div>
 
- </section>
  </section>
  
     </>

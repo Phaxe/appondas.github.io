@@ -4,11 +4,11 @@
   align-items: center;
   flex-direction: column;
   max-width: 100%;
-  margin-top: 3.25rem;
   position:relative;
   padding-top:100px;
-  padding-bottom:200px;
+  padding-bottom:100px;
   background-color: var(--color-white); 
+  margin: 0 auto;
 }
 #services h3{
   text-align: center;
@@ -30,6 +30,7 @@
 
 .card-wrap {
   position: relative;
+  margin: 0 auto;
 }
 .card-wrap::before, .card-wrap::after {
   content: "";
@@ -42,8 +43,8 @@
 }
 .card-wrap::before {
   background-color: #023358;
-  top: -5px;
-  left: -1px;
+  top: -15px;
+  left: -15px;
 }
 .card-wrap::after {
   bottom: -15px;
@@ -63,45 +64,37 @@
   position:relative;
   z-index: 1;
   padding-top:100px;
-  padding-bottom:200px;
+  padding-bottom:1rem;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(2,1fr);
   margin: 0 auto;
-  gap: 9rem;
+  gap:  5rem 15rem;
   counter-reset: my-awesome-counter;
   list-style: none;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
   line-height: 2;
-  height: 20rem;
-  
-}
-@media (max-width:767px){
-  .sub-services{
-    grid-template-columns: 1fr;
-    gap:3rem;
-    height: 80rem;
-  }
-  
 }
 .sub-services h2{
   color: #fff;
   font-size: 1.2rem;
-  padding-left: 10rem;
-  padding-top: 3rem;
-  margin-top: -0.3rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 1rem;
+  
 }
 .sub-services h6{
   justify-content: center;
   align-items: center;
   text-align: center;
   font-size: 0.75em;
-  padding-top: 1rem;
-  
+  padding-top: 0rem;
+  padding-bottom: 2rem;
   font-weight: 400;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   color: #fff;
 }
 .sub-services li {
@@ -141,14 +134,222 @@ transition: ease-in 0.3s;
   font-weight: bold;
   position: absolute;
   --size: 32px;
-  left: calc(-1 * var(--size) -6rem);
+  margin: 0 auto;
   line-height: var(--size);
   width: var(--size);
   height: var(--size);
-  top: 4.5rem;
   transform: rotate(-10deg);
   background: #fff;
   border-radius: 50%;
   text-align: center;
   box-shadow: 1px 1px 0 #ED6239;
+}
+@media (max-width: 991px){
+  #services{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .sub-services{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-left: 12rem;
+    padding-right: 12rem;
+    gap: 5rem;
+  }
+  .sub-services h2{
+    color: #fff;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .sub-services {
+    position:relative;
+    z-index: 1;
+    padding-top:100px;
+    padding-bottom:1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 auto;
+    gap:  5rem 10rem;
+    counter-reset: my-awesome-counter;
+    list-style: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 2;
+  }
+  
+  .sub-services li::before {
+    display: none;
+    content: counter(my-awesome-counter);
+    color: #ED6239;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    --size: 32px;
+    margin: 0 auto;
+    bottom: -1rem;
+    
+    line-height: var(--size);
+    width: var(--size);
+    height: var(--size);
+    transform: rotate(-10deg);
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 1px 1px 0 #ED6239;
+  }
+  }
+    
+
+
+@media (max-width: 767px){
+.sub-services{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  padding-left: 7rem;
+  padding-right: 7rem;
+  gap: 5rem;
+}
+.sub-services h2{
+  color: #fff;
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.sub-services {
+  position:relative;
+  z-index: 1;
+  padding-top:100px;
+  padding-bottom:1rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  margin: 0 auto;
+  gap:  5rem 5rem;
+  counter-reset: my-awesome-counter;
+  list-style: none;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  line-height: 2;
+}
+
+.sub-services li::before {
+  display: none;
+  content: counter(my-awesome-counter);
+  color: #ED6239;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  --size: 32px;
+  margin: 0 auto;
+  bottom: -1rem;
+  
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  transform: rotate(-10deg);
+  background: #fff;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 1px 1px 0 #ED6239;
+}
+}
+@media (max-width:475px){
+  .sub-services{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-left: 7rem;
+    padding-right: 7rem;
+    gap: 5rem;
+  }
+  .sub-services h2{
+    color: #fff;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .sub-services {
+    position:relative;
+    z-index: 1;
+    padding-top:100px;
+    padding-bottom:1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 0 auto;
+    gap:  5rem 5rem;
+    counter-reset: my-awesome-counter;
+    list-style: none;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    line-height: 2;
+  }
+  
+  .sub-services li::before {
+    display: none;
+    content: counter(my-awesome-counter);
+    color: #ED6239;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    --size: 32px;
+    margin: 0 auto;
+    bottom: -1rem;
+    
+    line-height: var(--size);
+    width: var(--size);
+    height: var(--size);
+    transform: rotate(-10deg);
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 1px 1px 0 #ED6239;
+  }
+  #services h3{
+    text-align: center;
+    color: #125488;
+    font-size: 1rem;
+    font-weight: 450;
+    line-height: 2;
+    margin-bottom: 30px;
+  }
+  
+  #services h4{
+    margin-bottom:1rem;
+    font-size: 1rem;
+    font-weight: 550;
+    color: #023358;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .sub-services h2{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 550;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1rem;
+    
+  }
+  .sub-services h6{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.75em;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    font-weight: 300;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #fff;
+  }
 }
